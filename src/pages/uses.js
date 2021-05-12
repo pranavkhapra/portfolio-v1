@@ -36,54 +36,54 @@ export default function uses() {
               </a>
               <div className="max-w-xl px-4 py-4 my-4 hover:text-cyan-900">
                 <div className="sm:grid sm:h-32 sm:grid-flow-row sm:gap-4 sm:grid-cols-3">
-                  <div className="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 bg-white  border border-gray-300 rounded">
                     <div>
                       <p className="text-lg text-center text-gray-500">React</p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center px-4 py-4 mt-2 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-2 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         Apollo
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         GraphQL
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         Next.js
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         Sanity.io
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         KeystoneJS
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         Tailwind CSS
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         TypeScript
@@ -91,7 +91,7 @@ export default function uses() {
                     </div>
                   </div>
 
-                  <div className="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-500">
                         Firebase
