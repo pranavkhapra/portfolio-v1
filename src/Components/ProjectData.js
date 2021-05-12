@@ -98,6 +98,8 @@ const uzumakiStore = {
     second: 'Keystone Headless CMS',
     third: 'Grapqhl',
     fourth: 'Apollo 3',
+    fivth: 'Next.js',
+    sixth: 'TypeScript',
   },
   imageDark: '/keep-dark.png',
   imageLight: '/keep-light.png',

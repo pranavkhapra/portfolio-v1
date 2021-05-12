@@ -23,10 +23,10 @@ export default function uses() {
               <a href="#">
                 <h2 className="underline hover:text-cyan-900">Hardware:</h2>
               </a>
-              <p>
-                Lenovo IdeaPad -330 (15-Inch, 2018) for work OS: Linux
-                Distro:KUbuntu
-              </p>
+              <div className="mt-2">
+                <p>Lenovo IdeaPad -330 (15-Inch, 2018) for work </p>
+                <p>OS: Linux Distro:KUbuntu</p>
+              </div>
             </div>
             <div className="post py-5">
               <a href="#">
