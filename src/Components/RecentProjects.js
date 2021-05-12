@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { ClickArrow } from './Icon';
 
 export default function RecentProjects() {
   return (
@@ -88,6 +89,7 @@ export default function RecentProjects() {
             <div className="text-center text-sm  md:text-base cursor-pointer">
               More Projects
             </div>
+            <ClickArrow />
           </a>
         </Link>
       </section>

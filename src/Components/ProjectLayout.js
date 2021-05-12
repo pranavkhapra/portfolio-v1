@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Github, OpenLink2 } from './Icon';
 
 const ProjectLayoutMed = ({ project }) => (
   <section className="lg:hidden mt-6  flex w-full border hover:shadow-lg focus:shadow-lg border-gray-600 hover:border-gray-900 focus:border-gray-900 dark:hover:border-gray-400 dark:focus:border-gray-400 md:h-96 h-64 rounded-lg relative">
@@ -61,10 +62,10 @@ const ProjectLayoutMed = ({ project }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <Github /> */}
+          <Github />
         </a>
         <a href={project.site} target="_blank" rel="noopener noreferrer">
-          {/* <OpenLink2 /> */}
+          <OpenLink2 />
         </a>
       </div>
     </div>
@@ -124,10 +125,10 @@ const LeftProjectLayoutLarge = ({ project }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <Github /> */}
+          <Github />
         </a>
         <a href={project.site} target="_blank" rel="noopener noreferrer">
-          {/* <OpenLink2 /> */}
+          <OpenLink2 />
         </a>
       </div>
     </div>
@@ -166,10 +167,10 @@ const RightProjectLayoutLarge = ({ project }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <Github /> */}
+          <Github />
         </a>
         <a href={project.site} target="_blank" rel="noopener noreferrer">
-          {/* <OpenLink2 /> */}
+          <OpenLink2 />
         </a>
       </div>
     </div>

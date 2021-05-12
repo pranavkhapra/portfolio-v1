@@ -1,5 +1,6 @@
 import React from 'react';
-import profilePic from '../images/profilepic.jpeg';
+import profilePic from '../images/baby_profile_naruto.jpg';
+import Icons from '../Components/Icon';
 
 export default function about() {
   return (
@@ -24,6 +25,7 @@ export default function about() {
               <div className="md:text-lg text-gray-800  dark:text-gray-400 mb-2 md:mt-1">
                 Web Developer
               </div>
+              <Icons />
             </div>
             <div className="font-normal lg:pt-4 pb-8 lg:col-span-2 text-base sm:w-9/12 md:w-10/12 mx-auto  lg:mx-0">
               <p className="mb-4">

@@ -4,6 +4,8 @@ import { Transition } from '@headlessui/react';
 
 export default function NavBar() {
   const [burgerBar, setBurgerBar] = useState(false);
+  const [sound, setSound] = useState(false);
+  const audio = new Audio('../public/sound.mp3');
   return (
     <>
       <header className="fixed top-0 w-full bg-white dark:text-gray-100 text-black  dark:bg-black z-20">
@@ -21,7 +23,12 @@ export default function NavBar() {
                   tabIndex={0}
                 >
                   <Link href="/">
-                    <a aria-label="Logo">
+                    <a
+                      aria-label="Logo"
+                      onClick={audio.play()}
+                      role="button"
+                      onChange={() => setSound(sound)}
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
