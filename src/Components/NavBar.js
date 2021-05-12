@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import { Transition } from '@headlessui/react';
+import SoundPlay from './SoundPlay';
 
 export default function NavBar() {
   const [burgerBar, setBurgerBar] = useState(false);
-  const [sound, setSound] = useState(false);
-  const audio = new Audio('../public/sound.mp3');
   return (
     <>
       <header className="fixed top-0 w-full bg-white dark:text-gray-100 text-black  dark:bg-black z-20">
@@ -22,13 +21,9 @@ export default function NavBar() {
                   role="button"
                   tabIndex={0}
                 >
+                  {/* <SoundPlay /> */}
                   <Link href="/">
-                    <a
-                      aria-label="Logo"
-                      onClick={audio.play()}
-                      role="button"
-                      onChange={() => setSound(sound)}
-                    >
+                    <a aria-label="Logo">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"

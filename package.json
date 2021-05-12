@@ -24,9 +24,11 @@
     "gatsby-plugin-sharp": "^3.5.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-transformer-sharp": "^3.5.0",
+    "howler": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-howler": "^5.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
