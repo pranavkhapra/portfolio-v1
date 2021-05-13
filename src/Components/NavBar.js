@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'gatsby';
 import { Transition } from '@headlessui/react';
-import SoundPlay from './SoundPlay';
+import { Moon, Sun } from './Icon';
+import { ThemeContext } from './ThemeContext';
+
+// import SoundPlay from './SoundPlay';
 
 export default function NavBar() {
+  const { theme, setTheme } = useContext(ThemeContext);
+
   const [burgerBar, setBurgerBar] = useState(false);
   return (
     <>
@@ -70,8 +75,32 @@ export default function NavBar() {
                   </div>
                 </div>
               </div>
+              <button
+                type="button"
+                aria-label="dark mode"
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                className="shadow hidden md:block self-center bg-white hover:bg-gray-100 focus:ring focus:ring-gray-500  dark:bg-black dark:hover:bg-gray-900 focus:outline-none rounded-md p-1.5"
+              >
+                {theme === 'dark' ? (
+                  <Sun aria-hidden="false" />
+                ) : (
+                  <Moon aria-hidden="true" />
+                )}
+              </button>
               <div className="-mr-2 flex md:hidden space-x-4">
                 {/* <!-- Mobile menu button --> */}
+                <button
+                  type="button"
+                  aria-label="dark mode"
+                  onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                  className="shadow block md:hidden self-center bg-white hover:bg-gray-100 focus:ring focus:ring-gray-500  dark:bg-black dark:hover:bg-gray-900 focus:outline-none rounded-md p-1.5"
+                >
+                  {theme === 'dark' ? (
+                    <Sun aria-hidden="false" />
+                  ) : (
+                    <Moon aria-hidden="true" />
+                  )}
+                </button>
 
                 <button
                   onClick={() => setBurgerBar(!burgerBar)}
