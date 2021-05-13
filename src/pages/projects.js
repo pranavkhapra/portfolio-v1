@@ -16,6 +16,7 @@ import {
 } from '../Components/ProjectLayout';
 
 export default function projects() {
+  console.log(sickSlice);
   return (
     <>
       <section className="w-11/12 px-4 md:px-0 pt-24 md:pt-28 lg:pt-32 mx-auto md:w-3/4 lg:w-10/12 dark:text-gray-300">
@@ -34,6 +35,10 @@ export default function projects() {
             <ProjectLayoutMed project={covid19Tracker} />
             <ProjectLayoutMed project={tweet} />
             <ProjectLayoutMed project={catchOfTheDay} />
+            <ProjectLayoutMed project={uzumakiStore} />
+            <ProjectLayoutMed project={minimialV0} />
+            <ProjectLayoutMed project={youtubeApi} />
+            <ProjectLayoutMed project={netflixApi} />
             <LeftProjectLayoutLarge project={sickSlice} />
             <RightProjectLayoutLarge project={covid19Tracker} />
             <LeftProjectLayoutLarge project={tweet} />
