@@ -237,6 +237,26 @@ const ScrollUp = () => (
   </div>
 );
 
+const ScrollDown = () => (
+  <div className="rounded text-gray-900 dark:text-gray-100 ">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      className="flex-none w-5 h-5"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M19 14l-7 7m0 0l-7-7m7 7V3"
+      />
+    </svg>
+  </div>
+);
 export {
   Moon,
   Sun,
@@ -247,6 +267,7 @@ export {
   Dumbell,
   Covid,
   ClickArrow,
+  ScrollDown,
 };
 
 export default Icons;
