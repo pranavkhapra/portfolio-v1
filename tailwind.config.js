@@ -15,6 +15,7 @@ module.exports = {
         neonBlue: '#4deeea	', // neon blue
         neonYellow: '#ffe700	', // neon yellow
         oliveGreen: '#06b6d4',
+        lightPurple: '#55198b',
         darkBackgroundPink: '#eb4471',
         darkBackgroundYellow: '#ffc600',
         darkText: '#d7d7d7',

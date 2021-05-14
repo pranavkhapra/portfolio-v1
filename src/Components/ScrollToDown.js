@@ -32,7 +32,7 @@ export default function ScrollToDown() {
         <div
           aria-hidden="true"
           onClick={scrollToDown}
-          className="bg-white fixed w-10 left-3 bottom-3 lg:bottom-5 lg:right-5  hover:bg-indigo-400 focus:bg-indigo-400 dark:hover:bg-darkBackgroundPink dark:focus:bg-indigo-900 dark:bg-gray-700 shadow p-2 rounded cursor-pointer"
+          className="bg-white fixed w-10 left-3 bottom-3 lg:bottom-5 lg:right-5  hover:bg-red-600 focus:bg-indigo-400 dark:hover:bg-darkBackgroundPink dark:focus:bg-indigo-900 dark:bg-gray-700 shadow p-2 rounded cursor-pointer"
         >
           <ScrollDown />
         </div>

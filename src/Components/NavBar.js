@@ -41,34 +41,34 @@ export default function NavBar() {
                   </Link>
                 </div>
                 <div className=" hidden md:block">
-                  <div className="ml-10 flex items-baseline space-x-4">
+                  <div className="ml-10 flex items-baseline space-x-4 ">
                     <Link href="/">
-                      <a className=" hover:bg-red-300 focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
+                      <a className=" hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         Home
                       </a>
                     </Link>
                     <Link href="/projects">
-                      <a className=" hover:bg-red-300 focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
+                      <a className=" hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         Projects
                       </a>
                     </Link>
                     <Link href="/uses">
-                      <a className=" hover:bg-red-300 focus:bg-red-300 dark:hover:bg-darkBackgroundPink dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
+                      <a className=" hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         Uses
                       </a>
                     </Link>
                     <Link href="/about">
-                      <a className=" hover:bg-red-300 focus:bg-red-300 dark:hover:bg-darkBackgroundPink dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
+                      <a className=" hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         About
                       </a>
                     </Link>
                     <Link href="/anime">
-                      <a className=" hover:bg-red-300 focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
+                      <a className=" hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         Anime
                       </a>
                     </Link>
                     <Link href="/resume">
-                      <a className=" hover:bg-red-300 focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
+                      <a className="hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         Resume
                       </a>
                     </Link>

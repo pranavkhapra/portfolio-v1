@@ -85,8 +85,8 @@ export default function RecentProjects() {
           </a>
         </div>
         <Link to="/projects">
-          <a className="group flex justify-center p-3 focus:text-gray-800  dark:text-gray-300 dark:focus:text-white">
-            <div className="group-hover:text-darkBackgroundYellow text-center text-sm  md:text-base cursor-pointer">
+          <a className=" flex justify-center p-3 focus:text-gray-800  dark:text-gray-300 dark:focus:text-white">
+            <div className="dark:hover:text-darkBackgroundYellow hover:text-lightPurple text-center text-sm  md:text-base cursor-pointer">
               More Projects
             </div>
             <ClickArrow />

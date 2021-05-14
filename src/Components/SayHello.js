@@ -8,13 +8,13 @@ export default function SayHello() {
           Get In Touch!
         </h2>
         <p className="mb-7 text-gray-900 dark:text-gray-300 w-5/6 sm:w-3/4 lg:w-5/6 xl:w-3/4 m-auto text-center md:font-medium ">
-          Whether you have an idea for a project or just want to say hi, feel
-          free to shoot me an email!
+          Whether you have an idea for a project , a great anime to talk about
+          or just want to say hi, feel free to shoot me an email!
         </p>
         <div className="mb-0 space-x-0 md:space-x-2">
           <a
             href="mailto:pranavkhapra23@gmail.com?subject=Hey, I know an awesome anime&body=So The story of the anime goes like......."
-            className=" bg-darkBackgroundPink bg-opacity-90 hover:bg-indigo-900 focus:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded shadow "
+            className="bg-lightPurple dark:bg-darkBackgroundPink bg-opacity-90 hover:bg-red-600 dark:hover:bg-indigo-900 focus:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded shadow "
           >
             Say Hello!
           </a>

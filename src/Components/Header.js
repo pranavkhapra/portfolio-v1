@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <main className="flex flex-col space-y-12 divide-y divide-gray-200 mb-32 font-firamono">
         <div>
-          <p className="mt-3 sm:w-9/12 mb-2  text-indigo-800 dark:text-darkBackgroundYellow md:w-10/12 lg:w-full text-base md:text-lg font-bold ">
+          <p className="mt-3 sm:w-9/12 mb-2  text-lightPurple dark:text-darkBackgroundYellow md:w-10/12 lg:w-full text-base md:text-lg font-bold ">
             HEY THERE,
           </p>
           <h1 className="text-4xl md:mb-5  md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight dark:text-darkBackgroundYellow  sm:leading-10   md:leading-14">
@@ -25,7 +25,7 @@ export default function Header() {
 
           <a
             href="mailto:pranavkhapra23@gmail.com?subject=Hey, I know an awesome anime&body=So The story of the anime goes like......."
-            className=" bg-darkBackgroundPink bg-opacity-90 hover:bg-indigo-900 focus:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded  shadow "
+            className=" bg-lightPurple bg-opacity-90 hover:bg-red-600 focus:bg-indigo-900 dark:hover:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded  shadow "
           >
             Say Hello!
           </a>
