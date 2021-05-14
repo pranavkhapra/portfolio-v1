@@ -32,7 +32,7 @@ export default function RecentProjects() {
                   <i>React</i>
                 </li>
                 <li className="md:ml-1 mr-2">
-                  <i>Keystone Headless CMS</i>
+                  <i>Keystonejs</i>
                 </li>
                 <li className="md:ml-1 mr-2 md:mr-0">
                   <i>Grapqhl</i>

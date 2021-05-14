@@ -31,7 +31,7 @@ export default function NavBar() {
                     <a aria-label="Logo">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        fill="#64ffda"
+                        fill="#eb4471"
                         viewBox="0 0 42.21 42.21"
                         className="h-8 w-8  hover:text-red-300 focus:text-red-300 dark:text-red-300"
                       >

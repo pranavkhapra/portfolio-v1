@@ -25,7 +25,7 @@ export default function Header() {
 
           <a
             href="mailto:pranavkhapra23@gmail.com?subject=Hey, I know an awesome anime&body=So The story of the anime goes like......."
-            className=" bg-lightPurple bg-opacity-90 hover:bg-red-600 focus:bg-indigo-900 dark:hover:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded  shadow "
+            className="dark:bg-darkBackgroundPink bg-lightPurple bg-opacity-90 hover:bg-red-600 focus:bg-indigo-900 dark:hover:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded  shadow "
           >
             Say Hello!
           </a>
