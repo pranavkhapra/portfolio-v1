@@ -7,7 +7,7 @@ export default function RecentProjects() {
     <>
       <section>
         <div className="text-left mt-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-5   dark:text-white text-black">
+          <h2 className="text-3xl md:text-4xl font-bold mb-5   dark:text-darkBackgroundYellow text-black">
             Recent Projects
           </h2>
         </div>

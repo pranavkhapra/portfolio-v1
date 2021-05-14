@@ -3,3 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .textselectyellow::selection {
+        backgroundColor: #ffc600;
+        color: #d7d7d7;
+      }
+  }

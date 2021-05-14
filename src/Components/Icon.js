@@ -6,7 +6,7 @@ const Icons = () => (
     <a
       aria-label="Mail"
       href="mailto:pranavkhapra23@gmail.com?subject=Hey, I know an awesome anime&body=So The story of the anime goes like......."
-      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-indigo-900 dark:focus:bg-indigo-900  "
+      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-darkBackgroundPink dark:focus:bg-indigo-900  "
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Icons = () => (
       href="https://github.com/pranavkhapra"
       target="_blank"
       rel="noopener noreferrer"
-      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400  dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-indigo-900 dark:focus:bg-indigo-900   "
+      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400  dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-darkBackgroundPink dark:focus:bg-indigo-900   "
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ const Icons = () => (
       href="https://twitter.com/pranavkhapra"
       target="_blank"
       rel="noopener noreferrer"
-      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-indigo-900 dark:focus:bg-indigo-900  "
+      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-darkBackgroundPink dark:focus:bg-indigo-900  "
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const Icons = () => (
       href="https://www.linkedin.com/in/pranav-khapra-b507831a5/"
       target="_blank"
       rel="noopener noreferrer"
-      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-indigo-900 dark:focus:bg-indigo-900  "
+      className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-darkBackgroundPink dark:focus:bg-indigo-900  "
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
