@@ -109,9 +109,30 @@ export default function uses() {
                       </p>
                     </div>
                   </div>
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
+                    <div>
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
+                        Gatsby
+                      </p>
+                    </div>
+                  </div>
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
+                    <div>
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
+                        Styled Components
+                      </p>
+                    </div>
+                  </div>
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
+                    <div>
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
+                        Git
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <p className="mt-24">
+              <p className="mt-48">
                 And, of course, the good old trio HTML, CSS and JavaScript! 🤠
               </p>
               <div className="post py-5">
