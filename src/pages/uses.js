@@ -1,4 +1,5 @@
 import React from 'react';
+// import giff from '../images/1145-wings-outline.gif';
 
 export default function uses() {
   return (
@@ -7,7 +8,7 @@ export default function uses() {
         <div className="w-full flex justify-center h-20 text-cyan-900" />
         <div className="flex justify-center py-5">
           <div className="container max-w-3xl p-4">
-            <div className=" space-y-2 md:space-y-5">
+            <div className=" space-y-2 md:space-y-5 ">
               <h1 className="pb-3 lg:pb-1 lg:mb-5 text-3xl font-extrabold leading-9 tracking-tight  dark:text-darkBackgroundYellow sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
                 Uses
               </h1>
@@ -39,7 +40,7 @@ export default function uses() {
             </div>
             <div className="post py-5">
               <h2 className="inline mr-3 pb-1 border-b-2 border-green-500 dark:border-darkBackgroundPink">
-                Technologies I like to work with
+                Technologies I like to work with 💾
               </h2>
 
               <div className="max-w-xl px-4 py-4 my-4 hover:text-cyan-900">
@@ -115,17 +116,19 @@ export default function uses() {
               </p>
               <div className="post py-5">
                 <h2 className="inline mr-3 pb-1 border-b-2 border-green-500 dark:border-darkBackgroundPink">
-                  Software:
+                  Software 💿
                 </h2>
 
                 <div className="mt-2">
-                  <p>Firefox for browsing and development</p>
-                  <p>Visual Studio Code</p>
-                  <p> Postman </p>
-                  <p>GitHub </p>
-                  <p>Figma </p>
+                  <p>Editor: VSCode</p>
+                  <p>Editor/Terminal Theme:Cobalt 2 theme by Wes Bos</p>
+                  <p>Browser: Firefox Developer Edition</p>
+                  <p>Postman </p>
+                  <p>Design Tool: Figma </p>
                   <p>MongoDb Compass </p>
-                  <p>oh-my-zsh </p>
+                  <p>Trello for tracking my work (like a kanban board)</p>
+                  <p>Terminal:linux with oh-my-zsh </p>
+                  <p> Fira Code Font- it's free!</p>
                 </div>
               </div>
               {/* <div className="post py-5">

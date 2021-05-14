@@ -12,7 +12,7 @@ module.exports = {
         // Configure color of the scroll indicator
         color: '#eb4471',
         // Height of the scroll indicator
-        height: '3px',
+        height: '4px',
         // Configure paths where the scroll indicator will appear
         paths: ['/', '/projects', '/uses', '/about', '/anime'],
         // Configure the z-index of the indicator element
