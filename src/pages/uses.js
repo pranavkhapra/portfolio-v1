@@ -14,86 +14,96 @@ export default function uses() {
             </div>
             <div>
               <p>
-                Sharing my setup and tools I use. Inspired by the uses.tech
+                Sharing my setup and tools I use. Inspired by the
+                <a
+                  target="_blank"
+                  href="https://uses.tech/"
+                  rel="noreferrer"
+                  className="ml-2 mr-2 inline  pb-1 border-b-2 border-green-500 dark:border-darkBackgroundPink"
+                >
+                  uses.tech
+                </a>
                 website.
               </p>
             </div>
             <h1 className="py-5">Last updated on April 18, 2021</h1>
             <div className="post py-5">
-              <a href="#">
-                <h2 className="underline hover:text-cyan-900">Hardware:</h2>
-              </a>
+              <h2 className="inline mr-3 pb-1 border-b-2 border-green-500 dark:border-darkBackgroundPink">
+                Hardware:
+              </h2>
+
               <div className="mt-2">
                 <p>Lenovo IdeaPad -330 (15-Inch, 2018) for work </p>
                 <p>OS: Linux Distro:KUbuntu</p>
               </div>
             </div>
             <div className="post py-5">
-              <a href="#">
-                <h2 className="underline hover:text-cyan-900">
-                  Technologies I like to work with
-                </h2>
-              </a>
+              <h2 className="inline mr-3 pb-1 border-b-2 border-green-500 dark:border-darkBackgroundPink">
+                Technologies I like to work with
+              </h2>
+
               <div className="max-w-xl px-4 py-4 my-4 hover:text-cyan-900">
-                <div className="sm:grid sm:h-32 sm:grid-flow-row sm:gap-4 sm:grid-cols-3">
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 bg-white  border border-gray-300 rounded">
+                <div className="sm:grid sm:h-32 sm:grid-flow-row sm:gap-4 sm:grid-cols-3 dark:text-indigo-100">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900  rounded">
                     <div>
-                      <p className="text-lg text-center text-gray-500">React</p>
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
+                        React
+                      </p>
                     </div>
                   </div>
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-2 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-2  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         Apollo
                       </p>
                     </div>
                   </div>
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         GraphQL
                       </p>
                     </div>
                   </div>
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4 dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         Next.js
                       </p>
                     </div>
                   </div>
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         Sanity.io
                       </p>
                     </div>
                   </div>
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         KeystoneJS
                       </p>
                     </div>
                   </div>
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         Tailwind CSS
                       </p>
                     </div>
                   </div>
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         TypeScript
                       </p>
                     </div>
                   </div>
 
-                  <div className="hover:bg-gray-900 flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                  <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-4  dark:bg-darkBackgroundPink   bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
-                      <p className="text-lg text-center text-gray-500">
+                      <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
                         Firebase
                       </p>
                     </div>
@@ -104,9 +114,10 @@ export default function uses() {
                 And, of course, the good old trio HTML, CSS and JavaScript! 🤠
               </p>
               <div className="post py-5">
-                <a href="#">
-                  <h2 className="underline hover:text-cyan-900">Software</h2>
-                </a>
+                <h2 className="inline mr-3 pb-1 border-b-2 border-green-500 dark:border-darkBackgroundPink">
+                  Software:
+                </h2>
+
                 <div className="mt-2">
                   <p>Firefox for browsing and development</p>
                   <p>Visual Studio Code</p>
