@@ -29,7 +29,7 @@ export const ThemeContext = createContext();
 
 // take inital theme and children
 export const ThemeProvider = ({ initialTheme, children }) => {
-  const [theme, setTheme] = useState(getInitialTheme);
+  const [theme, setTheme] = useState('dark');
 
   const checkTheme = (existing) => {
     const root = window.document.documentElement;

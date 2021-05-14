@@ -109,7 +109,7 @@ const Sun = () => (
 );
 
 const Github = () => (
-  <div className="rounded dark:text-gray-300 dark:hover:text-gray-100 text-gray-800 hover:text-black  ">
+  <div className="rounded dark:text-gray-300 dark:hover:text-gray-100 text-gray-800 hover:text-black ">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="16"

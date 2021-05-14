@@ -4,7 +4,7 @@ import React from 'react';
 import { Github, OpenLink2 } from './Icon';
 
 const ProjectLayoutMed = ({ project }) => (
-  <section className="lg:hidden mt-6  flex w-full border hover:shadow-lg focus:shadow-lg border-gray-600 hover:border-gray-900 focus:border-gray-900 dark:hover:border-gray-400 dark:focus:border-gray-400 md:h-96 h-64 rounded-lg relative">
+  <section className="lg:hidden mt-6  flex w-full border hover:shadow-lg focus:shadow-lg border-gray-400 hover:border-gray-600 focus:border-gray-900 dark:hover:border-gray-600 dark:focus:border-gray-600 md:h-96 h-64 rounded-lg relative">
     <a
       href={project.site}
       target="_blank"
@@ -16,7 +16,7 @@ const ProjectLayoutMed = ({ project }) => (
         src={project.imageLight}
         alt={project.title}
       />
-      <div className="absolute inset-0 bg-gray-100 bg-opacity-90  rounded-lg md:bg-opacity-30  md:hover:bg-opacity-0" />
+      <div className="absolute inset-0 bg-gray-100 dark:bg-gray-400 bg-opacity-90 dark:bg-opacity-80  rounded-lg md:bg-opacity-30  md:hover:bg-opacity-0" />
     </a>
 
     <a
@@ -26,7 +26,7 @@ const ProjectLayoutMed = ({ project }) => (
       className="hidden dark:block"
     >
       <img
-        className="dark:block hidden  absolute inset-0 h-full w-full object-cover sm:object-contain md:object-fill  rounded-lg"
+        className="dark:block hidden  absolute inset-0 h-full w-full object-cover sm:object-contain md:object-fill  rounded-lg "
         src={project.imageDark}
         alt={project.title}
       />
@@ -35,14 +35,14 @@ const ProjectLayoutMed = ({ project }) => (
 
     <div className=" md:mx-3 px-6 py-3 relative  md:w-8/12 my-auto rounded-lg  md:bg-gray-100 md:dark:bg-gray-900  md:shadow-md">
       <a href={project.site} target="_blank" rel="noopener noreferrer">
-        <h1 className=" dark:text-gray-100 mt-2   text-xl sm:text-2xl md:text-3xl  font-extrabold leading-snug tracking-tight  sm:leading-10 md:leading-14">
+        <h1 className=" dark:text-gray-100 mt-2  dark:text-darkBackgroundPink text-xl sm:text-2xl md:text-3xl  font-extrabold leading-snug tracking-tight  sm:leading-10 md:leading-14">
           {project.title}
         </h1>
         <div className="  sm:w-9/12  md:w-full text-sm md:text-lg ">
-          <p className="text-sm mt-2 leading-snug md:text-base">
+          <p className="text-sm mt-2 leading-snug md:text-base dark:text-gray-900">
             {project.description}
           </p>
-          <ul className="flex text-xs md:text-sm mt-3 font-semibold ">
+          <ul className="flex text-xs md:text-sm mt-3 font-semibold dark:text-gray-900 ">
             <li className=" mr-3">
               <i>{project.stack.first}</i>
             </li>
