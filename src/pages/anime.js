@@ -273,10 +273,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src={aotFirst} alt="" />
+              <img className="absolute" src={aotSecond} alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src={aotSecond}
+                src={aotFirst}
                 alt=""
               />
             </div>
@@ -321,10 +321,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src={silentVoiceFirst} alt="" />
+              <img className="absolute" src={silentVoiceSecond} alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src={silentVoiceSecond}
+                src={silentVoiceFirst}
                 alt=""
               />
             </div>
