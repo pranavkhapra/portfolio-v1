@@ -18,7 +18,15 @@ import aotSecond from '../images/aot2.jpg';
 export default function anime() {
   return (
     <>
-      <section className="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
+      <section className="container mx-auto p-20 md:py-30 px-0 md:p-20 md:px-10">
+        <div className="space-y-2 md:space-y-5">
+          <h1 className="pb-3 lg:pb-1 lg:mb-5 text-3xl font-extrabold leading-9 tracking-tight dark:text-darkBackgroundYellow sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+            Anime
+          </h1>
+          <p className="mt-6 text-xl leading-relaxed text-gray-700 dark:text-darkText ">
+            The collections of some of my fav. anime
+          </p>
+        </div>
         <section className="p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-start ">
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
