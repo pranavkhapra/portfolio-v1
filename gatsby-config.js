@@ -5,12 +5,18 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-postcss',
+
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: `gatsby-plugin-scroll-indicator`,
       options: {
-        google: {
-          families: ['Karla', 'sans-serif'],
-        },
+        // Configure color of the scroll indicator
+        color: '#64ffda',
+        // Height of the scroll indicator
+        height: '3px',
+        // Configure paths where the scroll indicator will appear
+        paths: ['/', '/projects', '/uses', '/about', '/anime'],
+        // Configure the z-index of the indicator element
+        zIndex: `9999`,
       },
     },
   ],

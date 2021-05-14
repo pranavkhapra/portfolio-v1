@@ -3,12 +3,12 @@ import React from 'react';
 export default function uses() {
   return (
     <>
-      <div className="relative min-h-screen pb-20 font-mono text-cyan-900">
+      <div className="relative min-h-screen pb-20 font-mono text-cyan-900 dark:text-darkText">
         <div className="w-full flex justify-center h-20 text-cyan-900" />
         <div className="flex justify-center py-5">
           <div className="container max-w-3xl p-4">
             <div className=" space-y-2 md:space-y-5">
-              <h1 className="pb-3 lg:pb-1 lg:mb-5 text-3xl font-extrabold leading-9 tracking-tight  dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+              <h1 className="pb-3 lg:pb-1 lg:mb-5 text-3xl font-extrabold leading-9 tracking-tight  dark:text-darkBackgroundYellow sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
                 Uses
               </h1>
             </div>

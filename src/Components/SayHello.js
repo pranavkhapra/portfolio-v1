@@ -3,7 +3,7 @@ import React from 'react';
 export default function SayHello() {
   return (
     <>
-      <div className="w-11/12 px-4 py-20 mx-auto text-center md:w-3/4 lg:w-2/4 font-firamono ">
+      <div className="w-11/12 px-4 py-20 mx-auto text-center md:w-3/4 lg:w-2/4 font-firamono  ">
         <h2 className="mb-2 text-3xl md:text-4xl font-extrabold tracking-tight dark:text-darkBackgroundYellow  md:mb-6 md:leading-tight">
           Get In Touch!
         </h2>

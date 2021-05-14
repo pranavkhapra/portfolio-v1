@@ -9,7 +9,7 @@ export default function Layout({ children }) {
   return (
     <>
       <ThemeProvider>
-        <div className="dark:bg-darkBackgroundBlue font-firamono">
+        <div className="dark:bg-darkBackgroundBlue font-firamono ">
           <NavBar />
           {children}
           <section className="w-full mt-8 ">

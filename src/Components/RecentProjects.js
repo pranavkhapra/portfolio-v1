@@ -27,23 +27,23 @@ export default function RecentProjects() {
                 real credit checkout. Users can search, sell, add to cart and
                 checkout their favourite items.
               </p>
-              <ul className="flex md:justify-end text-xs md:text-sm mt-3  font-semibold">
-                <li className="md:ml-1 mr-3">
+              <ul className="flex md:justify-end text-xs md:text-sm mt-3 dark:text-darkVimColor font-semibold">
+                <li className="md:ml-1 mr-2">
                   <i>React</i>
                 </li>
-                <li className="md:ml-1 mr-3">
+                <li className="md:ml-1 mr-2">
                   <i>Keystone Headless CMS</i>
                 </li>
-                <li className="md:ml-1 mr-3 md:mr-0">
+                <li className="md:ml-1 mr-2 md:mr-0">
                   <i>Grapqhl</i>
                 </li>
-                <li className="md:ml-1 mr-3 md:mr-0">
-                  <i>Apollo 3</i>
+                <li className="md:ml-1 mr-2 md:mr-0">
+                  <i>Apollo</i>
                 </li>
-                <li className="md:ml-1 mr-3 md:mr-0">
+                <li className="md:ml-1 mr-2 md:mr-0">
                   <i>TypeScript</i>
                 </li>
-                <li className="md:ml-1 mr-3 md:mr-0">
+                <li className="md:ml-1 mr-2 md:mr-0">
                   <i>Next.js</i>
                 </li>
               </ul>
@@ -67,7 +67,7 @@ export default function RecentProjects() {
                 because there is no actual pizza it just is like a example of
                 food delivery sites like dominos and all.
               </p>
-              <ul className="flex md:justify-end text-xs md:text-sm mt-3  font-semibold">
+              <ul className="flex md:justify-end text-xs md:text-sm mt-3  dark:text-darkVimColor font-semibold">
                 <li className="md:ml-1 mr-3">
                   <i>React</i>
                 </li>
@@ -85,8 +85,8 @@ export default function RecentProjects() {
           </a>
         </div>
         <Link to="/projects">
-          <a className=" flex justify-center p-3 focus:text-gray-800  dark:text-gray-300 dark:focus:text-white">
-            <div className="text-center text-sm  md:text-base cursor-pointer">
+          <a className="group flex justify-center p-3 focus:text-gray-800  dark:text-gray-300 dark:focus:text-white">
+            <div className="group-hover:text-darkBackgroundYellow text-center text-sm  md:text-base cursor-pointer">
               More Projects
             </div>
             <ClickArrow />

@@ -105,7 +105,7 @@ const LeftProjectLayoutLarge = ({ project }) => (
         <p className="text-right leading-snug  bg-gray-100 dark:bg-gray-900 p-4 rounded-lg">
           {project.description}
         </p>
-        <ul className="flex text-sm font-semibold mt-4 justify-end">
+        <ul className="flex text-sm font-semibold mt-4 justify-end dark:text-darkVimColor">
           <li className=" mr-3">
             <i>{project.stack.first}</i>
           </li>
@@ -147,7 +147,7 @@ const RightProjectLayoutLarge = ({ project }) => (
         <p className="  leading-snug  bg-gray-100 dark:bg-gray-900 p-4 rounded-lg">
           {project.description}
         </p>
-        <ul className="flex text-sm font-semibold mt-4 justify-start">
+        <ul className="flex text-sm font-semibold mt-4 justify-start dark:text-darkVimColor">
           <li className=" mr-3">
             <i>{project.stack.first}</i>
           </li>
