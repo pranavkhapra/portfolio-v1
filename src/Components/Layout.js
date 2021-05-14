@@ -12,9 +12,9 @@ export default function Layout({ children }) {
         <div className="dark:bg-black">
           <NavBar />
           {children}
-          <section className="w-full mt-8 dark:bg-black ">
-            <SayHello className="dark:bg-black" />
-            <Footer className="dark:bg-black" />
+          <section className="w-full mt-8 ">
+            <SayHello />
+            <Footer />
           </section>
         </div>
       </ThemeProvider>
