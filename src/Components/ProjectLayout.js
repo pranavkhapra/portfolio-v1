@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Github, OpenLink2 } from './Icon';
 
 const ProjectLayoutMed = ({ project }) => (
@@ -11,7 +12,7 @@ const ProjectLayoutMed = ({ project }) => (
       rel="noopener noreferrer"
       className="dark:hidden"
     >
-      <img
+      <StaticImage
         className="dark:hidden block  absolute inset-0 h-full w-full object-cover sm:object-contain md:object-fill rounded-lg"
         src={project.imageLight}
         alt={project.title}
@@ -25,7 +26,7 @@ const ProjectLayoutMed = ({ project }) => (
       rel="noopener noreferrer"
       className="hidden dark:block"
     >
-      <img
+      <StaticImage
         className="dark:block hidden  absolute inset-0 h-full w-full object-cover sm:object-contain md:object-fill  rounded-lg "
         src={project.imageDark}
         alt={project.title}
@@ -76,12 +77,12 @@ const LeftProjectLayoutLarge = ({ project }) => (
   <section className="hidden lg:flex w-full ">
     <div className="transition shadow duration-300 transform  hover:scale-105 border border-gray-400 hover:border-gray-600 dark:border-gray-600 dark:hover:border-gray-400 cursor-pointer w-3/5 ml-6 xl:ml-12 h-96 rounded-lg hover:shadow-lg focus:shadow-lg overflow-hidden relative">
       <a href={project.site} target="_blank" rel="noopener noreferrer">
-        <img
+        <StaticImage
           className="dark:hidden block absolute inset-0 h-full w-full object-cover xl:object-top rounded-lg"
           src={project.imageLight}
           alt={project.title}
         />
-        <img
+        <StaticImage
           className="dark:block hidden absolute inset-0 h-full w-full object-cover xl:object-top rounded-lg"
           src={project.imageDark}
           alt={project.title}
@@ -176,12 +177,12 @@ const RightProjectLayoutLarge = ({ project }) => (
     </div>
     <div className="transition duration-300 transform shadow  hover:scale-105 border border-gray-400 hover:border-gray-600 dark:border-gray-600 dark:hover:border-gray-400 w-3/5 -ml-12 xl:-ml-24 h-96 rounded-lg hover:shadow-lg focus:shadow-lg  overflow-hidden relative">
       <a href={project.site} target="_blank" rel="noopener noreferrer">
-        <img
+        <StaticImage
           className="dark:hidden block absolute inset-0 h-full w-full object-cover xl:object-top rounded-lg"
           src={project.imageLight}
           alt={project.title}
         />
-        <img
+        <StaticImage
           className="dark:block hidden absolute inset-0 h-full w-full object-cover xl:object-top rounded-lg"
           src={project.imageDark}
           alt={project.title}

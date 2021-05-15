@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../images/baby_profile_naruto.jpg';
+import { StaticImage } from 'gatsby-plugin-image';
 import Icons from '../Components/Icon';
 
 export default function about() {
@@ -14,8 +14,8 @@ export default function about() {
           </div>
           <div className="items-start space-y-2 lg:grid lg:grid-cols-3 lg:space-y-0 lg:pt-4">
             <div className="flex flex-col items-center pt-6 xl:pt-5">
-              <img
-                src={profilePic}
+              <StaticImage
+                src="../images/baby_profile_naruto.jpg"
                 alt="avatar"
                 className="w-48 h-48 rounded-xl"
               />
