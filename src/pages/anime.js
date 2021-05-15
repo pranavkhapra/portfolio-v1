@@ -59,9 +59,10 @@ export default function anime() {
               </li>
             </ul>
             <p className="mt-6  text-xl leading-relaxed text-gray-700 dark:text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aliquid atque officia? Earum dolores voluptatibus reiciendis,
-              excepturi corporis corrupti eaque!
+              Woooaah okay like this was the best anime or may be like the first
+              anime i have watched yaa it hve plot holes and all but i reallly
+              enjoy this one so much...the sound track made it super awesome
+              also i am kinda want to try boruto because of this
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
               23rd March, 2021
@@ -112,9 +113,11 @@ export default function anime() {
               </li>
             </ul>
             <p className="mt-6  text-xl leading-relaxed text-gray-700 dark:text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aliquid atque officia? Earum dolores voluptatibus reiciendis,
-              excepturi corporis corrupti eaque!
+              I am still reading it waiting for the mappa studio to publish
+              it...a story that looks dumb as hell, with a protagonist who acts
+              dumb as hell, with a goal that seems dumb as hell (touch some
+              booooooooobs). But where Chainsaw Man gets you is that it
+              anticipates your exhaustion with these tropes.
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
               23rd March, 2021
@@ -165,9 +168,11 @@ export default function anime() {
               </li>
             </ul>
             <p className="mt-6  text-xl leading-relaxed text-gray-700 dark:text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aliquid atque officia? Earum dolores voluptatibus reiciendis,
-              excepturi corporis corrupti eaque!
+              Okay first of all when i watched the firt episodes i was like
+              wth....how a sports anime hitting so hard and all...but yaa its
+              super good with great character buildup's and evolution ....with
+              goosebumps and thrills and yaa i know a bit of volleyball rules
+              nowww......also those thigh looks kinda thicccccck
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
               23rd March, 2021
@@ -218,9 +223,10 @@ export default function anime() {
               </li>
             </ul>
             <p className="mt-6  text-xl leading-relaxed text-gray-700 dark:text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aliquid atque officia? Earum dolores voluptatibus reiciendis,
-              excepturi corporis corrupti eaque!
+              Yoooo i love it sooo much its basically Naruto with all the
+              characters having great character development and a likeable
+              trait... with great comedy and crying scenes and some good action
+              and yaaaa not so long
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
               23rd March, 2021
@@ -270,9 +276,10 @@ export default function anime() {
               </li>
             </ul>
             <p className="mt-6  text-xl leading-relaxed text-gray-700 dark:text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aliquid atque officia? Earum dolores voluptatibus reiciendis,
-              excepturi corporis corrupti eaque!
+              First of all i hate sword fights and all but man this one was
+              great the animation was great and seriously i was shocked how
+              great it was the character was great with the great comedy man its
+              awesome you laugh so much and cry so much in this.....
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
               23rd March, 2021
@@ -322,9 +329,12 @@ export default function anime() {
               </li>
             </ul>
             <p className="mt-6  text-xl leading-relaxed text-gray-700 dark:text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aliquid atque officia? Earum dolores voluptatibus reiciendis,
-              excepturi corporis corrupti eaque!
+              Tatakae Tatakae ......still gives me goose bumps man this was
+              awesome its like got but better story and better twists the way
+              each character have some influence rather than just one protagnist
+              with all characters fighting to get freedom ...and man the season
+              4 was fire then i started the managa and i can't express the words
+              it made me cry.....Ereeen Yeaaagerr
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
               23rd March, 2021
@@ -374,9 +384,9 @@ export default function anime() {
               </li>
             </ul>
             <p className="mt-6  text-xl leading-relaxed text-gray-700 dark:text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aliquid atque officia? Earum dolores voluptatibus reiciendis,
-              excepturi corporis corrupti eaque!
+              hszxxxeahdsdsdj ......oh my bad i think my eyes are blurry man ya
+              this was also made me cry but like 7 times everytime i watched it
+              i am just crying.....it made me realize ......!
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
               23rd March, 2021
