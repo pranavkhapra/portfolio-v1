@@ -29,13 +29,14 @@ export default function about() {
             </div>
             <div className="font-normal lg:pt-4 pb-8 lg:col-span-2 text-base sm:w-9/12 md:w-10/12 mx-auto  lg:mx-0">
               <p className="mb-4">
-                Hello! I&apos;m Pranav Khapra, a web developer based in India.
+                Hello! I&apos;m Pranav Khapra, a web developer that lives in
+                India.
               </p>
               <p className="mb-4">
-                I’m a self-taught developer (as we all are bootcamp or not all
-                have to study self) working on all things. I have experience
-                developing applications for the web, from simple landing pages
-                to other applications.
+                I’m a self-taught developer (as we all are bootcamp students or
+                not all have to study self) . I have experience developing
+                applications for the web and still learning new things...about
+                it mostly everyday....
               </p>
               <p className="mb-4">
                 I aspire toward a career that will allow me to build inclusive
@@ -44,9 +45,9 @@ export default function about() {
               </p>
 
               <p className="mb-4">
-                When I’m not in front of a computer screen, I am probably
-                watching an anime ofc on a computer screen going out and
-                all....not so much..
+                When I’m not on the front of a computer screen, I am probably
+                watching an anime which is also on a computer screen .... going
+                out and all....not so much..
               </p>
               <p className="mb-4">
                 Here are a few technologies I&apos;ve been working with
@@ -57,18 +58,23 @@ export default function about() {
                   <li className="mb-0.25">▸ React</li>
                   <li className="mb-0.25">▸ TypeScript</li>
                   <li className="mb-0.25">▸ JavaScript</li>
-                  <li className="mb-0.25">▸Next Js</li>
-                  <li className="mb-0.25">▸Graphql</li>
+                  <li className="mb-0.25">▸ Next Js</li>
+                  <li className="mb-0.25">▸ Graphql</li>
                 </div>
 
                 <div className="md:ml-20">
-                  <li className="mb-0.25">▸Firebase</li>
-                  <li className="mb-0.25">▸Gatbsy</li>
-                  <li className="mb-0.25">▸TailWind</li>
-                  <li className="mb-0.25">▸Apollo Client</li>
-                  <li className="mb-0.25">▸Headless CMS(Keystone,Sanity)</li>
+                  <li className="mb-0.25">▸ Firebase</li>
+                  <li className="mb-0.25">▸ Gatbsy</li>
+                  <li className="mb-0.25">▸ TailWind</li>
+                  <li className="mb-0.25">▸ Apollo Client</li>
+                  <li className="mb-0.25">▸ Headless CMS(Keystone,Sanity)</li>
                 </div>
               </ul>
+              <p className="mb-4 mt-4">
+                A Secret between us...... i have a intel that Brendan Eich is
+                still learning javascript .......yaa you are right after all
+                these years.....ALWAYSSS
+              </p>
             </div>
           </div>
         </div>
