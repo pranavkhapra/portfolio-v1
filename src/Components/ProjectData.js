@@ -86,8 +86,8 @@ const minimialV0 = {
   imageDark: '/minimalv0.png',
   imageLight: '/minimalv0.png',
   techStack: ['Html', 'BootStrap'],
-  gitHub: 'https://github.com/pranavkhapra/minimal-v0',
-  site: 'https://pranavkhapra.github.io/minimal-v0/',
+  gitHub: 'https://github.com/pranavkhapra/minimal',
+  site: 'https://minimal-pranavkhapra.vercel.app/',
 };
 const uzumakiStore = {
   title: 'Uzumaki Store',
@@ -101,8 +101,8 @@ const uzumakiStore = {
     fivth: 'Next.js',
     sixth: 'TypeScript',
   },
-  imageDark: '/keep-dark.png',
-  imageLight: '/keep-light.png',
+  imageDark: '/uzumaki.png',
+  imageLight: '/uzumaki.png',
   techStack: ['React', 'Keystone Headless CMS', 'Grapqhl', 'Apollo 3'],
   gitHub: 'https://github.com/pranavkhapra/uzumaki-store',
   site: 'https://github.com/pranavkhapra/uzumaki-store',

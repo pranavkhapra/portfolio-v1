@@ -31,22 +31,22 @@ export default function projects() {
             </p>
           </div>
           <div className="space-y-6 ">
-            <ProjectLayoutMed project={sickSlice} />
-            <ProjectLayoutMed project={covid19Tracker} />
-            <ProjectLayoutMed project={tweet} />
-            <ProjectLayoutMed project={catchOfTheDay} />
             <ProjectLayoutMed project={uzumakiStore} />
-            <ProjectLayoutMed project={minimialV0} />
-            <ProjectLayoutMed project={youtubeApi} />
+            <ProjectLayoutMed project={sickSlice} />
+            <ProjectLayoutMed project={catchOfTheDay} />
+            <ProjectLayoutMed project={tweet} />
             <ProjectLayoutMed project={netflixApi} />
-            <LeftProjectLayoutLarge project={sickSlice} />
-            <RightProjectLayoutLarge project={covid19Tracker} />
-            <LeftProjectLayoutLarge project={tweet} />
-            <RightProjectLayoutLarge project={catchOfTheDay} />
+            <ProjectLayoutMed project={minimialV0} />
+            <ProjectLayoutMed project={covid19Tracker} />
+            <ProjectLayoutMed project={youtubeApi} />
             <LeftProjectLayoutLarge project={uzumakiStore} />
+            <RightProjectLayoutLarge project={sickSlice} />
+            <LeftProjectLayoutLarge project={catchOfTheDay} />
+            <RightProjectLayoutLarge project={tweet} />
+            <LeftProjectLayoutLarge project={netflixApi} />
             <RightProjectLayoutLarge project={minimialV0} />
-            <LeftProjectLayoutLarge project={youtubeApi} />
-            <RightProjectLayoutLarge project={netflixApi} />
+            <LeftProjectLayoutLarge project={covid19Tracker} />
+            <RightProjectLayoutLarge project={youtubeApi} />
           </div>
         </div>
       </section>
