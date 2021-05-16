@@ -1,7 +1,7 @@
 const sickSlice = {
   title: 'Sick Slice',
   description:
-    'Sick Slice is a site help me to learn gatsby and fall in love with the headless cms which helps to comfort your taste buds because there is no actual pizza it just is like a example of food delivery sites like dominos and all ',
+    'Sick slice a full stack pizza store based on food delivery apps where user can view pizza on based on toppings,order them and then the order is send to the client for delivering.',
   stack: {
     first: 'Gatsby',
     second: 'React',
@@ -34,7 +34,7 @@ const covid19Tracker = {
 const catchOfTheDay = {
   title: 'Catch-of-the-Day',
   description:
-    'A Project That doesnt make sense now but was making in my head that day so.....created with React used firebase for auth and database storage used stylus for the 1st time and GOD its great',
+    'Catch of the Day — a real-time a for a trendy seafood market where price and quantity available are variable and can change at a moments notice.Contains a menu, an order form, and an inventory management area where authorized users can immediately update product details.',
   stack: {
     first: 'React',
     second: 'Firebase',
@@ -64,7 +64,7 @@ const tikTok = {
 const tweet = {
   title: 'Twitter',
   description:
-    'Basically a twitter clone with real time tweet fetching and all attachment the storage authentication and real time is done with Firebase and some libraries',
+    'Basically a twitter clone with real time tweet fetching and all attachment the storage authentication and real time is done with Firebase',
   stack: {
     first: 'React',
     second: 'FireBase',
@@ -92,10 +92,10 @@ const minimialV0 = {
 const uzumakiStore = {
   title: 'Uzumaki Store',
   description:
-    'Uzumaki Store, a full stack online clothing store complete with real credit checkout. Users can search, sell, add to cart and checkout their favourite items. The app also includes many server side bits including authentication, permissions, sending email, uploading images, and charging credit cards.',
+    'Uzumaki Store, a full stack online clothing store complete. Users can search, sell, add to cart and checkout their favourite items. The app also includes many server side bits including authentication, permissions, sending email, uploading images, and charging credit cards.',
   stack: {
     first: 'React',
-    second: 'Keystone Headless CMS',
+    second: 'Keystone',
     third: 'Grapqhl',
     fourth: 'Apollo 3',
     fivth: 'Next.js',

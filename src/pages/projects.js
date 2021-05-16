@@ -16,7 +16,7 @@ import {
 } from '../Components/ProjectLayout';
 
 export default function projects() {
-  console.log(sickSlice);
+  // console.log(sickSlice);
   return (
     <>
       <section className="w-11/12 px-4 md:px-0 pt-24 md:pt-28 lg:pt-32 mx-auto md:w-3/4 lg:w-10/12 dark:text-gray-300 ">

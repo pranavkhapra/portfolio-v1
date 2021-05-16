@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Icons from '../Components/Icon';
+import harrypotter from '../images/harry-potter.svg';
 
 export default function about() {
   return (
@@ -39,15 +40,15 @@ export default function about() {
                 it mostly everyday....
               </p>
               <p className="mb-4">
-                I aspire toward a career that will allow me to build inclusive
-                and accessible applications through carefully crafted code and
-                user-centric design that result in engaging experiences.
+                I aspire toward the goal of just learning everyday and seeing
+                the progress i have achieved and the space still left for some
+                more.
               </p>
 
               <p className="mb-4">
                 When I’m not on the front of a computer screen, I am probably
-                watching an anime which is also on a computer screen .... going
-                out and all....not so much..
+                watching an anime which is technically also on a computer screen
+                ....
               </p>
               <p className="mb-4">
                 Here are a few technologies I&apos;ve been working with
@@ -70,11 +71,20 @@ export default function about() {
                   <li className="mb-0.25">▸ Headless CMS(Keystone,Sanity)</li>
                 </div>
               </ul>
-              <p className="mb-4 mt-4">
-                A Secret between us...... i have a intel that Brendan Eich is
-                still learning javascript .......yaa you are right after all
-                these years.....ALWAYSSS
-              </p>
+              <div>
+                <p className="mb-4 mt-4">
+                  A Secret between us...... i have a intel that Brendan Eich is
+                  still learning javascript .......yaa you are right after all
+                  these years.....ALWAYSSS
+                  <img
+                    src={harrypotter}
+                    fill="#eb4471"
+                    viewBox="0 0 42.21 42.21"
+                    className="h-8 w-8  hover:text-red-300 focus:text-red-300 dark:text-red-300"
+                    alt="harrypotter"
+                  />
+                </p>
+              </div>
             </div>
           </div>
         </div>

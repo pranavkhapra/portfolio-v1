@@ -151,6 +151,16 @@ export default function uses() {
                   <p>Terminal:linux with oh-my-zsh </p>
                   <p> Fira Code Font- it's free!</p>
                 </div>
+                <div className="mt-32 inline mr-3 pb-1 border-b-2 border-green-500 dark:border-darkBackgroundPink">
+                  Icons made by{' '}
+                  <a href="https://smashicons.com/" title="Smashicons">
+                    Smashicons
+                  </a>{' '}
+                  from{' '}
+                  <a href="https://www.flaticon.com/" title="Flaticon">
+                    www.flaticon.com
+                  </a>
+                </div>
               </div>
               {/* <div className="post py-5">
                 <a href="#">

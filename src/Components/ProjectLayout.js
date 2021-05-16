@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Github, OpenLink2 } from './Icon';
+import { Github, OpenLink2, OpenLink } from './Icon';
 
 const ProjectLayoutMed = ({ project }) => (
   <section className="lg:hidden mt-6  flex w-full border hover:shadow-lg focus:shadow-lg border-gray-400 hover:border-gray-600 focus:border-gray-900 dark:hover:border-gray-600 dark:focus:border-gray-600 md:h-96 h-64 rounded-lg relative">
@@ -65,7 +65,7 @@ const ProjectLayoutMed = ({ project }) => (
           <Github />
         </a>
         <a href={project.site} target="_blank" rel="noopener noreferrer">
-          <OpenLink2 />
+          <OpenLink />
         </a>
       </div>
     </div>
@@ -109,11 +109,20 @@ const LeftProjectLayoutLarge = ({ project }) => (
           <li className=" mr-3">
             <i>{project.stack.first}</i>
           </li>
-          <li className=" mr-3">
+          <li className="mr-3">
             <i>{project.stack.second}</i>
           </li>
-          <li>
+          <li className="mr-3">
             <i>{project.stack.third}</i>
+          </li>
+          <li className="mr-3">
+            <i>{project.stack.fourth}</i>
+          </li>
+          <li className="mr-3">
+            <i>{project.stack.fivth}</i>
+          </li>
+          <li className="mr-3">
+            <i>{project.stack.sixth}</i>
           </li>
         </ul>
       </div>
@@ -148,14 +157,23 @@ const RightProjectLayoutLarge = ({ project }) => (
           {project.description}
         </p>
         <ul className="flex text-sm font-semibold mt-4 justify-start dark:text-darkVimColor">
-          <li className=" mr-3">
+          <li className="mr-3">
             <i>{project.stack.first}</i>
           </li>
-          <li className=" mr-3">
+          <li className="mr-3">
             <i>{project.stack.second}</i>
           </li>
-          <li>
+          <li className="mr-3">
             <i>{project.stack.third}</i>
+          </li>
+          <li className="mr-3">
+            <i>{project.stack.fourth}</i>
+          </li>
+          <li className="mr-3">
+            <i>{project.stack.fivth}</i>
+          </li>
+          <li className="mr-3">
+            <i>{project.stack.sixth}</i>
           </li>
         </ul>
       </div>

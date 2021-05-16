@@ -12,8 +12,8 @@ export default function Header() {
             I&apos;m Pranav Khapra👋
           </h1>
           <p className="mt-3 mb-6 md:mb-8 sm:w-9/12  text-gray-900 dark:text-gray-300 md:w-10/12 lg:w-full text-base md:text-lg font-medium ">
-            A Web/Game Developer from India. I love solving problems even though
-            I end up searching for the solution. I&apos;m glad you&apos;re here!
+            A Web Developer. I love solving problems even though I end up
+            searching for the solution.
           </p>
           {/* //TODO:ADD THSI TO THE NAV  */}
           {/* <button
@@ -22,7 +22,10 @@ export default function Header() {
         >
           Resume
         </button> */}
-
+          <p className="mt-3 mb-6 md:mb-8 sm:w-9/12  text-gray-900 dark:text-gray-300 md:w-10/12 lg:w-full text-base md:text-lg font-medium">
+            {' '}
+            I&apos;m glad you&apos;re here!
+          </p>
           <a
             href="mailto:pranavkhapra23@gmail.com?subject=Hey, I know an awesome anime&body=So The story of the anime goes like......."
             className="dark:bg-darkBackgroundPink bg-lightPurple bg-opacity-90 hover:bg-red-600 focus:bg-indigo-900 dark:hover:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded  shadow "

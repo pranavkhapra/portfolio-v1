@@ -124,7 +124,7 @@ const Github = () => (
 );
 
 const OpenLink = () => (
-  <a
+  <div
     aria-label="Open Link"
     className="rounded  dark:text-gray-300 dark:hover:text-gray-100 text-gray-800 hover:text-black "
   >
@@ -145,7 +145,7 @@ const OpenLink = () => (
         d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
       />
     </svg>
-  </a>
+  </div>
 );
 
 const ClickArrow = () => (
@@ -164,7 +164,7 @@ const ClickArrow = () => (
 );
 
 const OpenLink2 = () => (
-  <a
+  <div
     aria-label="Open Link"
     className="rounded  dark:text-gray-300 dark:hover:text-gray-100 text-gray-800 hover:text-black "
   >
@@ -185,7 +185,7 @@ const OpenLink2 = () => (
         d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"
       />
     </svg>
-  </a>
+  </div>
 );
 
 const Dumbell = () => (
