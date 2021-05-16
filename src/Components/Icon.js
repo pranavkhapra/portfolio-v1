@@ -164,7 +164,7 @@ const ClickArrow = () => (
 );
 
 const OpenLink2 = () => (
-  <div
+  <di
     aria-label="Open Link"
     className="rounded  dark:text-gray-300 dark:hover:text-gray-100 text-gray-800 hover:text-black "
   >
@@ -185,7 +185,7 @@ const OpenLink2 = () => (
         d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"
       />
     </svg>
-  </div>
+  </di>
 );
 
 const Dumbell = () => (

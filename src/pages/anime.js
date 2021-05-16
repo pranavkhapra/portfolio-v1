@@ -65,7 +65,7 @@ export default function anime() {
               also i am kinda want to try boruto because of this
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
-              23rd March, 2021
+              Original run: September 21, 1999 – November 10, 2014
             </p>
           </article>
 
@@ -120,7 +120,7 @@ export default function anime() {
               anticipates your exhaustion with these tropes.
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
-              23rd March, 2021
+              Original run December 3, 2018 – December 14, 2020
             </p>
           </article>
 
@@ -175,7 +175,7 @@ export default function anime() {
               nowww......also those thigh looks kinda thicccccck
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
-              23rd March, 2021
+              Original run April 6, 2014 – December 19, 2020
             </p>
           </article>
 
@@ -229,7 +229,7 @@ export default function anime() {
               and yaaaa not so long
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
-              23rd March, 2021
+              Original run October 3, 2020 – March 27, 2021
             </p>
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
@@ -282,7 +282,7 @@ export default function anime() {
               awesome you laugh so much and cry so much in this.....
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
-              23rd March, 2021
+              Original run April 6, 2019 – September 28, 2019
             </p>
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
@@ -337,7 +337,7 @@ export default function anime() {
               it made me cry.....Ereeen Yeaaagerr
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
-              23rd March, 2021
+              Original run April 7, 2013 – April 9, 2021(only manga)
             </p>
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
@@ -389,7 +389,7 @@ export default function anime() {
               i am just crying.....it made me realize ......!
             </p>
             <p className="text-gray-400 mt-10 font-semibold">
-              23rd March, 2021
+              Original run September 17, 2016
             </p>
           </article>
         </section>
