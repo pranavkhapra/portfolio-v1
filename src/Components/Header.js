@@ -11,9 +11,10 @@ export default function Header() {
           <h1 className="text-4xl md:mb-5  md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight dark:text-darkBackgroundYellow  sm:leading-10   md:leading-14">
             I&apos;m Pranav Khapra👋
           </h1>
+
           <p className="mt-3 mb-6 md:mb-8 sm:w-9/12  text-gray-900 dark:text-gray-300 md:w-10/12 lg:w-full text-base md:text-lg font-medium ">
             A Web Developer. I love solving problems even though I end up
-            searching for the solution.
+            searching for the solution. I&apos;m glad you&apos;re here!
           </p>
           {/* //TODO:ADD THSI TO THE NAV  */}
           {/* <button
@@ -22,10 +23,7 @@ export default function Header() {
         >
           Resume
         </button> */}
-          <p className="mt-3 mb-6 md:mb-8 sm:w-9/12  text-gray-900 dark:text-gray-300 md:w-10/12 lg:w-full text-base md:text-lg font-medium">
-            {' '}
-            I&apos;m glad you&apos;re here!
-          </p>
+
           <a
             href="mailto:pranavkhapra23@gmail.com?subject=Hey, I know an awesome anime&body=So The story of the anime goes like......."
             className="dark:bg-darkBackgroundPink bg-lightPurple bg-opacity-90 hover:bg-red-600 focus:bg-indigo-900 dark:hover:bg-indigo-900 text-indigo-100 mt-6 text-sm font-bold lg:text-base tracking-normal my-5 md:my-7 p-3 px-4 md:px-5 rounded  shadow "

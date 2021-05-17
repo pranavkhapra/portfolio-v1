@@ -67,11 +67,11 @@ export default function NavBar() {
                         Anime
                       </div>
                     </Link>
-                    <Link to="/resume">
+                    <a href="learn-tailwind-pdf.pdf" download>
                       <div className="hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         Resume
                       </div>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
