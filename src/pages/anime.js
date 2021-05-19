@@ -1,6 +1,18 @@
 import React from 'react';
-
-import { StaticImage } from 'gatsby-plugin-image';
+import narutoFirstPoster from '../images/naruttooo.png';
+import narutoSecondPoster from '../images/narutoo.jpg';
+import chainsawmanFirst from '../images/chainsawman.jpg';
+import chainsawmanSecond from '../images/chainsawman1.jpg';
+import haikyuFirst from '../images/haikyuu.jpg';
+import haikyuSecond from '../images/haikyuuu.jpg';
+import jujutsuKaisenFirst from '../images/jjk_poster.jpg';
+import jujutsuKaisenSecond from '../images/jujutsukaisen.jpg';
+import demonSlayerFirst from '../images/demonslayer.jpg';
+import demonSlayerSecond from '../images/demonslayer.jpeg';
+import silentVoiceFirst from '../images/silentvoice.jpeg';
+import silentVoiceSecond from '../images/silentvoice.jpg';
+import aotFirst from '../images/aot1.jpg';
+import aotSecond from '../images/aot2.jpg';
 
 export default function anime() {
   return (
@@ -17,14 +29,10 @@ export default function anime() {
         <section className="p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-start ">
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <StaticImage
-                className="absolute"
-                src="../images/narutoo.jpg"
-                alt=""
-              />
-              <StaticImage
+              <img className="absolute" src={narutoSecondPoster} alt="" />
+              <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="../images/naruttooo.png"
+                src={narutoFirstPoster}
                 alt=""
               />
             </div>
@@ -71,14 +79,10 @@ export default function anime() {
 
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <StaticImage
-                className="absolute"
-                src="../images/chainsawman1.jpg"
-                alt=""
-              />
-              <StaticImage
+              <img className="absolute" src={chainsawmanSecond} alt="" />
+              <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="../images/chainsawman.jpg"
+                src={chainsawmanFirst}
                 alt=""
               />
             </div>
@@ -126,14 +130,10 @@ export default function anime() {
 
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <StaticImage
-                className="absolute"
-                src="../images/haikyuu.jpg"
-                alt=""
-              />
-              <StaticImage
+              <img className="absolute" src={haikyuFirst} alt="" />
+              <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="../images/haikyuuu.jpg"
+                src={haikyuSecond}
                 alt=""
               />
             </div>
@@ -181,14 +181,10 @@ export default function anime() {
 
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <StaticImage
-                className="absolute"
-                src="../images/jjk_poster.jpg"
-                alt=""
-              />
-              <StaticImage
+              <img className="absolute" src={jujutsuKaisenFirst} alt="" />
+              <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="../images/jujutsukaisen.jpg"
+                src={jujutsuKaisenSecond}
                 alt=""
               />
             </div>
@@ -234,14 +230,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <StaticImage
-                className="absolute"
-                src="../images/demonslayer.jpg"
-                alt=""
-              />
-              <StaticImage
+              <img className="absolute" src={demonSlayerFirst} alt="" />
+              <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="../images/demonslayer.jpeg"
+                src={demonSlayerSecond}
                 alt=""
               />
             </div>
@@ -287,14 +279,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <StaticImage
-                className="absolute"
-                src="../images/aot2.jpg"
-                alt=""
-              />
-              <StaticImage
+              <img className="absolute" src={aotFirst} alt="" />
+              <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="../images/aot1.jpg"
+                src={aotSecond}
                 alt=""
               />
             </div>
@@ -342,14 +330,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <StaticImage
-                className="absolute"
-                src="../images/silentvoice.jpg"
-                alt=""
-              />
-              <StaticImage
+              <img className="absolute" src={silentVoiceSecond} alt="" />
+              <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="../images/silentvoice.jpeg"
+                src={silentVoiceFirst}
                 alt=""
               />
             </div>

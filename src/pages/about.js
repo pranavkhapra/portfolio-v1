@@ -1,7 +1,7 @@
 import React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import Icons from '../Components/Icon';
 import harrypotter from '../images/harry-potter.svg';
+import profilepic from '../images/baby_profile_naruto.jpg';
 
 export default function about() {
   return (
@@ -15,8 +15,8 @@ export default function about() {
           </div>
           <div className="items-start space-y-2 lg:grid lg:grid-cols-3 lg:space-y-0 lg:pt-4">
             <div className="flex flex-col items-center pt-6 xl:pt-5">
-              <StaticImage
-                src="../images/baby_profile_naruto.jpg"
+              <img
+                src={profilepic}
                 alt="avatar"
                 className="w-48 h-48 rounded-xl"
               />

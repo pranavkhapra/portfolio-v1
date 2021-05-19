@@ -40,7 +40,7 @@ const catchOfTheDay = {
     second: 'Firebase',
     third: 'Stylus',
   },
-  imageDark: '/catchoftheday.png',
+  imageDark: './catchoftheday.png',
   imageLight: '/catchoftheday.png',
   techStack: ['React', 'Firebase', 'Stylus'],
   gitHub: 'https://github.com/pranavkhapra/fish-store',
@@ -101,8 +101,7 @@ const uzumakiStore = {
     fivth: 'Next.js',
     sixth: 'TypeScript',
   },
-  imageDark: '/uzumaki.png',
-  imageLight: '/uzumaki.png',
+
   techStack: ['React', 'Keystone Headless CMS', 'Grapqhl', 'Apollo 3'],
   gitHub: 'https://github.com/pranavkhapra/uzumaki-store',
   site: 'https://github.com/pranavkhapra/uzumaki-store',
