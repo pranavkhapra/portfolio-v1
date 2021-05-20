@@ -29,24 +29,21 @@ export default function RecentProjects() {
                 authentication, permissions, sending email, uploading images,
                 and charging credit cards.
               </p>
-              <ul className="flex md:justify-end tracking-normal text-xs md:text-sm mt-3 dark:text-darkVimColor font-semibold">
-                <li className="md:ml-1 mr-2 md:mr-0">
-                  <i>React</i>
+              <ul className="flex md:justify-end text-xs md:text-sm mt-3  dark:text-darkVimColor font-semibold">
+                <li className="md:ml-1 mr-3 ">
+                  <i>Nextjs</i>
                 </li>
-                <li className="md:ml-1 mr-2 md:mr-0">
-                  <i>Keystonejs</i>
+                <li className="md:ml-1 mr-3">
+                  <i>Keystone</i>
                 </li>
-                <li className="md:ml-1 mr-2 md:mr-0">
+                <li className="md:ml-1 mr-3">
                   <i>Grapqhl</i>
                 </li>
-                <li className="md:ml-1 mr-2 md:mr-0">
+                <li className="md:ml-1 mr-3 ">
                   <i>Apollo</i>
                 </li>
-                <li className="md:ml-1 mr-2 md:mr-0">
+                <li className="md:ml-1 mr-3 ">
                   <i>TypeScript</i>
-                </li>
-                <li className="md:ml-1 mr-2 md:mr-0">
-                  <i>Next.js</i>
                 </li>
               </ul>
             </div>
@@ -75,10 +72,10 @@ export default function RecentProjects() {
                 <li className="md:ml-1 mr-3">
                   <i>Gatsby</i>
                 </li>
-                <li className="md:ml-1 mr-3 md:mr-0">
+                <li className="md:ml-1 mr-3">
                   <i>Sanity</i>
                 </li>
-                <li className="md:ml-1 mr-3 md:mr-0">
+                <li className="md:ml-1 mr-3 ">
                   <i>Styled-components</i>
                 </li>
               </ul>
