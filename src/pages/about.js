@@ -42,11 +42,6 @@ export default function about() {
                 applications for the web and still learning new things...about
                 it mostly everyday....
               </p>
-              <p className="mb-4">
-                I aspire toward the goal of just learning everyday and seeing
-                the progress i have achieved and the space still left for some
-                more.
-              </p>
 
               <p className="mb-4">
                 When I’m not on the front of a computer screen, I am probably
