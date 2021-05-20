@@ -34,7 +34,7 @@ const covid19Tracker = {
 const catchOfTheDay = {
   title: 'Catch-of-the-Day',
   description:
-    'Catch of the Day — a real-time a for a trendy seafood market where price and quantity available are variable and can change at a moments notice.Contains a menu, an order form, and an inventory management area where authorized users can immediately update product details.',
+    'Catch of the Day — a real-time seafood market where price and quantity available are variable and can change at a moments notice.Contains a menu, an order form, and an inventory management area where authorized users can immediately update product details.',
   stack: {
     first: 'React',
     second: 'Firebase',
