@@ -2,7 +2,7 @@
 import './src/styles/global.css';
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import favicon from './src/images/rainbow.png';
+// import favicon from '/rainbow.png';
 import Layout from './src/Components/Layout';
 import 'typeface-fira-mono';
 import { ThemeProvider } from './src/Components/ThemeContext';
@@ -12,7 +12,7 @@ export const wrapPageElement = ({ element, props }) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Pranav Khapra</title>
-      <link rel="icon" type="image/png" href={favicon} sizes="32x32" />
+      <link rel="icon" type="image/png" href="/rainbow.png" sizes="32x32" />
     </Helmet>
     <Layout {...props}>{element}</Layout>
   </ThemeProvider>

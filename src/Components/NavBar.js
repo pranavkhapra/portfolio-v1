@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { Transition } from '@headlessui/react';
 import { Moon, Sun } from './Icon';
 import { ThemeContext } from './ThemeContext';
-import logo from '../images/p.svg';
+// import logo from '../../images/p.svg';
 // import SoundPlay from './SoundPlay';
 
 export default function NavBar() {
@@ -31,7 +31,7 @@ export default function NavBar() {
                   <Link to="/">
                     <div aria-label="Logo">
                       <img
-                        src={logo}
+                        src="/p.svg"
                         fill="#eb4471"
                         viewBox="0 0 42.21 42.21"
                         className="h-8 w-8  hover:text-red-300 focus:text-red-300 dark:text-red-300"
