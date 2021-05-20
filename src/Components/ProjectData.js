@@ -2,6 +2,8 @@ const sickSlice = {
   title: 'Sick Slice',
   description:
     'Sick slice a full stack pizza store based on food delivery apps where user can view pizza on based on toppings,order them and then the order is send to the client for delivering.',
+  shortdescription:
+    'Sick slice a full stack pizza store based on food delivery apps.',
   stack: {
     first: 'Gatsby',
     second: 'React',
@@ -18,7 +20,10 @@ const sickSlice = {
 const covid19Tracker = {
   title: 'COVID-19 Tracker',
   description:
-    'Created a Covid tracker that tracks the covid situation and show it with charts,graphs and lot of cool design and dark theme.A lot of new things this project helped me to learn.',
+    'Created a Covid tracker that tracks the covid situation and show it with charts,graphs.A lot of new things this project helped me to learn.',
+  shortdescription:
+    'Created a Covid tracker that tracks the covid situation and show it with charts,graphs.',
+
   stack: {
     first: 'React',
     second: 'Chart.js',
@@ -35,6 +40,8 @@ const catchOfTheDay = {
   title: 'Catch-of-the-Day',
   description:
     'Catch of the Day — a real-time seafood market where price and quantity available are variable and can change at a moments notice.Contains a menu, an order form, and an inventory management area where authorized users can immediately update product details.',
+  shortdescription:
+    'Catch of the Day — a real-time seafood market where price and quantity available are variable and can change at a moments notice.',
   stack: {
     first: 'React',
     second: 'Firebase',
@@ -49,6 +56,8 @@ const catchOfTheDay = {
 const tikTok = {
   title: 'Tik Tok Clone',
   description: 'A tik-tok type app created for trying the datastax by astra',
+  shortdescription:
+    'A tik-tok type app created for trying the datastax by astra',
   stack: {
     first: 'React',
     second: 'Stargate',
@@ -65,6 +74,8 @@ const tweet = {
   title: 'Twitter',
   description:
     'Basically a twitter clone with real time tweet fetching and all attachment the storage authentication and real time is done with Firebase',
+  shortdescription:
+    'Basically a twitter clone with real time tweet fetching and all attachment the storage authentication and real time is done with Firebase',
   stack: {
     first: 'React',
     second: 'FireBase',
@@ -76,9 +87,12 @@ const tweet = {
   site: 'https://pranavkhapra.github.io/tweet/#/',
 };
 const minimialV0 = {
-  title: 'Twitter',
+  title: 'Minimalv0',
   description:
-    'People love big websites and big portfolio but it is also a place where you can get lost so this it the minimal portfolio type thing that can tell you all the over the layer info about me ,currently working on the v1 of the portfolio',
+    'People love big websites and big portfolio but it is also a place where you can get lost so this it the minimal portfolio.',
+  shortdescription:
+    'People love big websites and big portfolio but it is also a place where you can get lost so this it the minimal portfolio.',
+
   stack: {
     first: 'Html',
     second: 'Bootstrap',
@@ -92,7 +106,10 @@ const minimialV0 = {
 const uzumakiStore = {
   title: 'Uzumaki Store',
   description:
-    'Uzumaki Store, a full stack online clothing store complete. Users can search, sell, add to cart and checkout their favourite items. The app also includes many server side bits including authentication, permissions, sending email, uploading images, and charging credit cards.',
+    'Uzumaki Store, a full stack online clothing store. Users can search, sell, add to cart and checkout their favourite items. The app also includes many server side bits including authentication, permissions, sending email, uploading images, and charging credit cards.',
+  shortdescription:
+    'Uzumaki Store, a full stack online clothing store. Users can search, sell, add to cart and checkout their favourite items.',
+
   stack: {
     first: 'React',
     second: 'Keystone',
@@ -111,6 +128,9 @@ const youtubeApi = {
   title: 'Youtube Api',
   description:
     'Basically youtube without all the algos .It fetches the data videos and all from youtube-api.Videos are played and are real time also 5 videos per search in recommendation bar',
+  shortdescription:
+    'Basically youtube without all the algos.It fetches the data videos and all from youtube-api.',
+
   stack: {
     first: 'React',
     second: 'youtube-api',
@@ -126,6 +146,9 @@ const netflixApi = {
   title: 'Netflix Api Store',
   description:
     'Basically a Netflix Web Page That Runs trailer instead of movies. Data fetched from netflix api and yt.',
+  shortdescription:
+    'Basically a Netflix Web Page That Runs trailer instead of movies. Data fetched from netflix api and yt.',
+
   stack: {
     first: 'React',
     second: 'Firebase',

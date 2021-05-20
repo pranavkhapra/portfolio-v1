@@ -35,12 +35,12 @@ const ProjectLayoutMed = ({ project }) => (
 
     <div className=" md:mx-3 px-6 py-3 relative  md:w-8/12 my-auto rounded-lg  md:bg-gray-100 md:dark:bg-gray-900  md:shadow-md">
       <a href={project.site} target="_blank" rel="noopener noreferrer">
-        <h1 className=" text-gray-100 mt-2  text-xl sm:text-2xl md:text-3xl  font-extrabold leading-snug tracking-tight  sm:leading-10 md:leading-14">
+        <h1 className=" dark:text-gray-200 mt-2  text-xl sm:text-2xl md:text-3xl  font-extrabold leading-snug tracking-tight  sm:leading-10 md:leading-14">
           {project.title}
         </h1>
         <div className="  sm:w-9/12  md:w-full text-sm md:text-lg ">
           <p className="text-sm mt-2 leading-snug md:text-base dark:text-gray-900">
-            {project.description}
+            {project.shortdescription}
           </p>
           <ul className="flex text-xs md:text-sm mt-3 font-semibold dark:text-gray-900 ">
             <li className=" mr-3">

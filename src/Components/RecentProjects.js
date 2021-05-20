@@ -37,12 +37,12 @@ export default function RecentProjects() {
                   <i>Keystone</i>
                 </li>
                 <li className="md:ml-1 mr-3">
-                  <i>Grapqhl</i>
+                  <i>Apollo-Grapqhl</i>
                 </li>
-                <li className="md:ml-1 mr-3 ">
-                  <i>Apollo</i>
-                </li>
-                <li className="md:ml-1 mr-3 ">
+                {/* <li className="md:ml-1 mr-3 ">
+                  <i />
+                </li> */}
+                <li className="md:ml-1 mr-3 md:mr-0">
                   <i>TypeScript</i>
                 </li>
               </ul>
@@ -75,7 +75,7 @@ export default function RecentProjects() {
                 <li className="md:ml-1 mr-3">
                   <i>Sanity</i>
                 </li>
-                <li className="md:ml-1 mr-3 ">
+                <li className="md:ml-1 mr-3 md:mr-0">
                   <i>Styled-components</i>
                 </li>
               </ul>
