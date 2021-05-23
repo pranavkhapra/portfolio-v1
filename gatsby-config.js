@@ -36,5 +36,15 @@ module.exports = {
         zIndex: `9999`,
       },
     },
+plugins: [
+  {
+    resolve: `gatsby-plugin-hotjar`,
+    options: {
+      includeInDevelopment: true, // optional parameter to include script in development
+      id: 2411755,
+      sv: 6,
+    },
+  },
+];
   ],
 };
