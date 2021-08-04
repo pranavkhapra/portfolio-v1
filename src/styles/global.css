@@ -3,40 +3,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    @variants dark {
-        .scrollbar {
-            scrollbar-color: #000000	;
-            scrollbar-width: thin;
-            &::-webkit-scrollbar {
-                width: 5px;
-            }
-            &::-webkit-scrollbar-track {
-                background-color: #000000	;
-            }
-            &::-webkit-scrollbar-thumb {
-                background-color: #000000	;
-                border-radius: 5px;
-            }
-        }
-    }
-    .scrollbar {
-        scrollbar-color: #000000	;
-        scrollbar-width: thin;
-        &::-webkit-scrollbar {
-            width: 5px;
-        }
-        &::-webkit-scrollbar-track {
-            background-color: #000000	;
-        }
-        &::-webkit-scrollbar-thumb {
-            background-color: #000000	;
-            border-radius: 5px;
-        }
-    }
-    .selecttext::selection {
-        background-color: #000000	;
-        color: #000000	;
-      }
-      
+@layer components{
+   /* width */
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }

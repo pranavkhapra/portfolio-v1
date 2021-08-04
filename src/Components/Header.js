@@ -14,7 +14,8 @@ export default function Header() {
 
           <p className="mt-3 mb-6 md:mb-8 sm:w-9/12  text-gray-900 dark:text-gray-300 md:w-10/12 lg:w-full text-base md:text-lg font-medium ">
             A Web Developer. I love solving problems even though I end up
-            searching for the solution. I&apos;m glad you&apos;re here!
+            searching for the solution and I think if statement curly braces
+            don't deserve their own lines.I&apos;m glad you&apos;re here!
           </p>
           {/* //TODO:ADD THSI TO THE NAV  */}
           {/* <button

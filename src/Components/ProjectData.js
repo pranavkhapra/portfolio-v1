@@ -1,18 +1,18 @@
 const sickSlice = {
   title: 'Sick Slice',
   description:
-    'Sick slice a full stack pizza store based on food delivery apps where user can view pizza on based on toppings,order them and then the order is send to the client for delivering.',
+    'Sick slice is online pizza store that includes all the features of a real world food delivery website.Where you can view pizza on based on toppings with dynamic pages for each pizza ,order them which is send to the shop for delivering.',
   shortdescription:
     'Sick slice a full stack pizza store based on food delivery apps.',
   stack: {
     first: 'Gatsby',
-    second: 'React',
+    second: 'Graphql',
     third: 'Sanity',
     fourth: 'Styled-components',
   },
   imageDark: '/sick-slices.png',
   imageLight: '/sick-slices.png',
-  techStack: ['Gatsby', 'React', 'Sanity', 'Styled-components'],
+  techStack: ['Gatsby', 'Graphql', 'Sanity', 'Styled-components'],
   gitHub: 'https://github.com/pranavkhapra/sick-slice',
   site: 'https://sick-slice-pranav-khapra.netlify.app/',
 };
@@ -39,7 +39,7 @@ const covid19Tracker = {
 const catchOfTheDay = {
   title: 'Catch-of-the-Day',
   description:
-    'Catch of the Day — a real-time seafood market where price and quantity available are variable and can change at a moments notice.Contains a menu, an order form, and an inventory management area where authorized users can immediately update product details.',
+    'This single-page application mocks up a fish market online store, letting you change descriptions, load samples, add to your cart and more. It is all done using a Firebase real-time database so anyone can make and share stores with each other!',
   shortdescription:
     'Catch of the Day — a real-time seafood market where price and quantity available are variable and can change at a moments notice.',
   stack: {
@@ -106,21 +106,28 @@ const minimialV0 = {
 const uzumakiStore = {
   title: 'Uzumaki Store',
   description:
-    'Uzumaki Store, a full stack online clothing store. Users can search, sell, add to cart and checkout their favourite items. The app also includes many server side bits including authentication, permissions, sending email, uploading images, and charging credit cards.',
+    'Uzumaki Store just browse around the multitude of clothes until you find something you fancy. After that, you should probably make an account so you can actually buy something.With an account set up, you will have access to the bulk of the application, including the ability to sell your own products and manage them, view your profile, add items to your cart, checkout purchase those items, and review past orders as well.',
   shortdescription:
     'Uzumaki Store, a full stack online clothing store. Users can search, sell, add to cart and checkout their favourite items.',
 
   stack: {
     first: 'React',
     second: 'Keystone',
-    third: 'Grapqhl',
-    fourth: 'Apollo 3',
+    third: 'Graphql',
+    fourth: 'Apollo',
     fivth: 'Next.js',
     sixth: 'TypeScript',
   },
   imageDark: '/uzumaki.png',
   imageLight: '/uzumaki.png',
-  techStack: ['React', 'Keystone Headless CMS', 'Grapqhl', 'Apollo 3'],
+  techStack: [
+    'React',
+    'Keystone',
+    'Graphql',
+    'Apollo',
+    'TypeScript',
+    'Next.js',
+  ],
   gitHub: 'https://github.com/pranavkhapra/uzumaki-store',
   site: 'https://github.com/pranavkhapra/uzumaki-store',
 };
@@ -159,7 +166,34 @@ const netflixApi = {
   gitHub: 'https://github.com/pranavkhapra/react-NETFLIX-api',
   site: 'https://react-netflix-api-pranav.netlify.app/',
 };
-
+const markDownViewer = {
+  title: 'Markdown Rea-wer',
+  description:
+    'Its a pun get it! Its a good pun I came up with this while trying to sleep and coded in a day. I wanted to make a markdown previewer.',
+  stack: {
+    first: 'React',
+    second: 'react-markdown',
+  },
+  imageDark: '/markdown-rea-wer.png',
+  imageLight: '/markdown-rea-wer.png',
+  techStack: ['React', 'react-markdown'],
+  gitHub: 'https://github.com/pranavkhapra/markdown-rea-wer',
+  site: 'https://markdown-online-editor.netlify.app/',
+};
+const konohaGram = {
+  title: 'konaha-gram',
+  description:
+    'konaha-gram a single page application made, in attempt to revise the integration of Redux with React.You can like posts, navigate the app, and add comments and your changes will be reflected instantly. If you click on the logo, youll be taken back to the base page, where your changes will still be saved, until page reload!',
+  stack: {
+    first: 'React',
+    second: 'redux',
+  },
+  imageDark: '/konoha-gram.png',
+  imageLight: '/konoha-gram.png',
+  techStack: ['React', 'redux'],
+  gitHub: 'https://github.com/pranavkhapra/konoha-gram',
+  site: 'https://konaha-gram.netlify.app/',
+};
 export {
   sickSlice,
   covid19Tracker,
@@ -170,4 +204,6 @@ export {
   netflixApi,
   youtubeApi,
   minimialV0,
+  markDownViewer,
+  konohaGram,
 };

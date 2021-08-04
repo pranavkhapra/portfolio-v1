@@ -23,11 +23,9 @@ export default function RecentProjects() {
                 Uzumaki Store
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-900  dark:text-gray-300">
-                Uzumaki Store, a full stack online clothing store complete.
-                Users can search, sell, add to cart and checkout their favourite
-                items. The app also includes many server side bits including
-                authentication, permissions, sending email, uploading images,
-                and charging credit cards.
+                Uzumaki Store a online store where you can buy overpriced
+                clothing even post your own products for sale! Made it with a
+                cool stack , with actual credit processing.
               </p>
               <ul className="flex md:justify-end text-xs md:text-sm mt-3  dark:text-darkVimColor font-semibold">
                 <li className="md:ml-1 mr-3 ">
@@ -37,7 +35,10 @@ export default function RecentProjects() {
                   <i>Keystone</i>
                 </li>
                 <li className="md:ml-1 mr-3">
-                  <i>Apollo-Grapqhl</i>
+                  <i>Apollo</i>
+                </li>
+                <li className="md:ml-1 mr-3">
+                  <i>Graphql</i>
                 </li>
                 {/* <li className="md:ml-1 mr-3 ">
                   <i />
@@ -61,16 +62,17 @@ export default function RecentProjects() {
                 Sick Slice
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-900  dark:text-gray-300">
-                Sick slice a full stack pizza store based on food delivery apps
-                where user can view pizza on based on toppings,order them and
-                then the order is send to the client for delivering.
+                Sick slice is online pizza store that includes all the features
+                of a real world food delivery website.Where you can view pizza
+                on based on toppings with dynamic pages for each pizza ,order
+                them which is send to the shop for delivering.
               </p>
               <ul className="flex md:justify-end text-xs md:text-sm mt-3  dark:text-darkVimColor font-semibold">
                 <li className="md:ml-1 mr-3">
-                  <i>React</i>
+                  <i>Gatsby</i>
                 </li>
                 <li className="md:ml-1 mr-3">
-                  <i>Gatsby</i>
+                  <i>Graphql</i>
                 </li>
                 <li className="md:ml-1 mr-3">
                   <i>Sanity</i>

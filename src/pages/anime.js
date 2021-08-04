@@ -13,6 +13,8 @@ import React from 'react';
 // import silentVoiceSecond from '/silentvoice.jpg';
 // import aotFirst from '/aot1.jpg';
 // import aotSecond from '/aot2.jpg';
+import ScrollToTop from '../Components/ScrollToTop';
+import ScrollToDown from '../Components/ScrollToDown';
 
 export default function anime() {
   return (
@@ -378,6 +380,8 @@ export default function anime() {
           </article>
         </section>
       </section>
+      <ScrollToTop />
+      <ScrollToDown />
     </>
   );
 }

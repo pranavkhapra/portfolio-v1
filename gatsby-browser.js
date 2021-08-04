@@ -14,6 +14,8 @@ export const wrapPageElement = ({ element, props }) => (
       <title>Pranav Khapra</title>
       <link rel="icon" type="image/png" href="/rainbow.png" sizes="32x32" />
     </Helmet>
-    <Layout {...props}>{element}</Layout>
+    <Layout className="scrollbar" {...props}>
+      {element}
+    </Layout>
   </ThemeProvider>
 );

@@ -8,12 +8,16 @@ import {
   tweet,
   uzumakiStore,
   youtubeApi,
+  markDownViewer,
+  konohaGram,
 } from '../Components/ProjectData';
 import {
   ProjectLayoutMed,
   LeftProjectLayoutLarge,
   RightProjectLayoutLarge,
 } from '../Components/ProjectLayout';
+import ScrollToTop from '../Components/ScrollToTop';
+import ScrollToDown from '../Components/ScrollToDown';
 
 export default function projects() {
   // console.log(sickSlice);
@@ -34,6 +38,8 @@ export default function projects() {
             <ProjectLayoutMed project={uzumakiStore} />
             <ProjectLayoutMed project={sickSlice} />
             <ProjectLayoutMed project={catchOfTheDay} />
+            <ProjectLayoutMed project={konohaGram} />
+            <ProjectLayoutMed project={markDownViewer} />
             <ProjectLayoutMed project={tweet} />
             <ProjectLayoutMed project={netflixApi} />
             <ProjectLayoutMed project={minimialV0} />
@@ -42,6 +48,8 @@ export default function projects() {
             <LeftProjectLayoutLarge project={uzumakiStore} />
             <RightProjectLayoutLarge project={sickSlice} />
             <LeftProjectLayoutLarge project={catchOfTheDay} />
+            <RightProjectLayoutLarge project={konohaGram} />
+            <LeftProjectLayoutLarge project={markDownViewer} />
             <RightProjectLayoutLarge project={tweet} />
             <LeftProjectLayoutLarge project={netflixApi} />
             <RightProjectLayoutLarge project={minimialV0} />
@@ -49,6 +57,8 @@ export default function projects() {
             <RightProjectLayoutLarge project={youtubeApi} />
           </div>
         </div>
+        <ScrollToTop />
+        <ScrollToDown />
       </section>
     </>
   );

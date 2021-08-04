@@ -3,6 +3,9 @@ import Icons from '../Components/Icon';
 // import harrypotter from '../../images/harry-potter.svg';
 // import profilepic from '../../images/baby_profile_naruto.jpg';
 
+import ScrollToTop from '../Components/ScrollToTop';
+import ScrollToDown from '../Components/ScrollToDown';
+
 export default function about() {
   return (
     <>
@@ -33,16 +36,15 @@ export default function about() {
             </div>
             <div className="font-normal lg:pt-4 pb-8 lg:col-span-2 text-base sm:w-9/12 md:w-10/12 mx-auto  lg:mx-0">
               <p className="mb-4">
-                Hello! I&apos;m Pranav Khapra, a web developer that lives in
-                India.
+                Hello! I&apos;m Pranav Khapra, a web developer.
               </p>
               <p className="mb-4">
                 I’m a self-taught developer (as we all are bootcamp students or
-                not all have to study self) . I have experience developing
-                applications for the web and still learning new things...about
-                it mostly everyday....
+                not we all have to study on our own so lets put that aside). I
+                like to code things for web, and enjoy bringing ideas to life in
+                the browser. I'm always open to adapt to work with team and work
+                on new frontend skills and technology.
               </p>
-
               <p className="mb-4">
                 When I’m not on the front of a computer screen, I am probably
                 watching an anime which is technically also on a computer screen
@@ -59,15 +61,16 @@ export default function about() {
                   <li className="mb-0.25">▸ JavaScript</li>
                   <li className="mb-0.25">▸ Next Js</li>
                   <li className="mb-0.25">▸ Graphql</li>
+                  <li className="mb-0.25">▸ SQL</li>
                 </div>
 
                 <div className="md:ml-20">
                   <li className="mb-0.25">▸ Firebase</li>
                   <li className="mb-0.25">▸ Gatbsy</li>
                   <li className="mb-0.25">▸ TailWind</li>
-                  <li className="mb-0.25">▸ Apollo Client</li>
+                  <li className="mb-0.25">▸ Apollo</li>
                   <li className="mb-0.25">▸ Keystonejs</li>
-                  <li className="mb-0.25">▸ Sanity.io</li>
+                  <li className="mb-0.25">▸ Sanity</li>
                 </div>
               </ul>
               <div>
@@ -87,6 +90,8 @@ export default function about() {
             </div>
           </div>
         </div>
+        <ScrollToTop />
+        <ScrollToDown />
       </section>
     </>
   );
