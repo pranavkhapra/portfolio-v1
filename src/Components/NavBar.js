@@ -67,7 +67,7 @@ export default function NavBar() {
                         Anime
                       </div>
                     </Link>
-                    <a href="learn-tailwind-pdf.pdf" download>
+                    <a href="Pranav-Khapra-Resume.pdf" download>
                       <div className="hover:bg-lightPurple hover:text-darkText focus:bg-red-300 dark:hover:bg-darkBackgroundPink  dark:focus:bg-gray-900 px-3 py-2 rounded-md text-sm lg:text-base font-medium">
                         Resume
                       </div>
@@ -212,7 +212,7 @@ export default function NavBar() {
                         Anime
                       </div>
                     </Link>
-                    <a href="learn-tailwind-pdf.pdf" download>
+                    <a href="Pranav-Khapra-Resume.pdf" download>
                       <div className=" hover:bg-gray-100 focus:bg-gray-100 dark:hover:bg-gray-900  dark:focus:bg-gray-900 block px-3 py-2 rounded-md text-sm md:text-base font-medium">
                         Resume
                       </div>

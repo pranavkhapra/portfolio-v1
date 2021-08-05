@@ -129,7 +129,7 @@ const uzumakiStore = {
     'Next.js',
   ],
   gitHub: 'https://github.com/pranavkhapra/uzumaki-store',
-  site: 'https://github.com/pranavkhapra/uzumaki-store',
+  site: 'https://uzumaki-store.vercel.app/',
 };
 const youtubeApi = {
   title: 'Youtube Api',

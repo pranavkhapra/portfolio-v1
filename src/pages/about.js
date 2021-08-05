@@ -39,6 +39,11 @@ export default function about() {
                 Hello! I&apos;m Pranav Khapra, a web developer.
               </p>
               <p className="mb-4">
+                Web Developer with a passion for coding and embracing
+                challenges.On a forever journey of professional growth as well
+                as learning from and sharing with other creators.
+              </p>
+              <p className="mb-4">
                 I’m a self-taught developer (as we all are bootcamp students or
                 not we all have to study on our own so lets put that aside). I
                 like to code things for web, and enjoy bringing ideas to life in
@@ -74,7 +79,7 @@ export default function about() {
                 </div>
               </ul>
               <div>
-                <p className="mb-4 mt-4">
+                <p className="mb-4 mt-8">
                   A Secret between us...... i have a intel that Brendan Eich is
                   still learning javascript .......yaa you are right after all
                   these years.....ALWAYSSS
