@@ -44,7 +44,7 @@ export default function RecentProjects() {
                   <i />
                 </li> */}
                 <li className="md:ml-1 mr-3 md:mr-0">
-                  <i>TypeScript</i>
+                  <i>React</i>
                 </li>
               </ul>
             </div>

@@ -62,7 +62,7 @@ export default function about() {
               <ul className="md:flex ">
                 <div>
                   <li className="mb-0.25">▸ React</li>
-                  <li className="mb-0.25">▸ TypeScript</li>
+                  {/* <li className="mb-0.25">▸ TypeScript</li> */}
                   <li className="mb-0.25">▸ JavaScript</li>
                   <li className="mb-0.25">▸ Next Js</li>
                   <li className="mb-0.25">▸ Graphql</li>
