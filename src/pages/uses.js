@@ -141,7 +141,7 @@ export default function uses() {
                   </div> */}
                 </div>
               </div>
-              <p className="mt-72">
+              <p className="mt-44">
                 And, of course, the good old trio HTML, CSS and JavaScript! 🤠
               </p>
               <div className="post py-5">

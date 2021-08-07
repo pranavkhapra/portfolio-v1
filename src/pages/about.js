@@ -66,7 +66,7 @@ export default function about() {
                   <li className="mb-0.25">▸ JavaScript</li>
                   <li className="mb-0.25">▸ Next Js</li>
                   <li className="mb-0.25">▸ Graphql</li>
-                  <li className="mb-0.25">▸ SQL</li>
+                  <li className="mb-0.25">▸ Sanity</li>
                 </div>
 
                 <div className="md:ml-20">
@@ -75,7 +75,7 @@ export default function about() {
                   <li className="mb-0.25">▸ TailWind</li>
                   <li className="mb-0.25">▸ Apollo</li>
                   <li className="mb-0.25">▸ Keystonejs</li>
-                  <li className="mb-0.25">▸ Sanity</li>
+                  {/* <li className="mb-0.25">▸ </li> */}
                 </div>
               </ul>
               <div>
