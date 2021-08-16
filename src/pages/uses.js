@@ -57,7 +57,7 @@ export default function uses() {
                   <div className="hover:bg-green-500 flex flex-col justify-center px-4 py-4 mt-2  dark:bg-darkBackgroundPink bg-gray-300 dark:hover:bg-indigo-900 rounded sm:mt-0">
                     <div>
                       <p className="text-lg text-center text-gray-900 dark:text-indigo-100 text-base md:text-lg font-medium">
-                        Apollo
+                        Apollo Client
                       </p>
                     </div>
                   </div>

@@ -35,7 +35,7 @@ export default function RecentProjects() {
                   <i>Keystone</i>
                 </li>
                 <li className="md:ml-1 mr-3">
-                  <i>Apollo</i>
+                  <i>Apollo Client</i>
                 </li>
                 <li className="md:ml-1 mr-3">
                   <i>Graphql</i>

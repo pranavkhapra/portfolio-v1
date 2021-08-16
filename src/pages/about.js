@@ -73,7 +73,7 @@ export default function about() {
                   <li className="mb-0.25">▸ Firebase</li>
                   <li className="mb-0.25">▸ Gatbsy</li>
                   <li className="mb-0.25">▸ TailWind</li>
-                  <li className="mb-0.25">▸ Apollo</li>
+                  <li className="mb-0.25">▸ Apollo Client</li>
                   <li className="mb-0.25">▸ Keystonejs</li>
                   {/* <li className="mb-0.25">▸ </li> */}
                 </div>

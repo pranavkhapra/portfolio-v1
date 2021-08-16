@@ -124,7 +124,7 @@ const uzumakiStore = {
     'React',
     'Keystone',
     'Graphql',
-    'Apollo',
+    'Apollo Client',
     // 'TypeScript',
     'Next.js',
   ],
