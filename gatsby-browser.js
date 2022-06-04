@@ -3,9 +3,9 @@ import './src/styles/global.css';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 // import favicon from '/rainbow.png';
-import Layout from './src/Components/Layout';
+import Layout from './src/components/Layout';
 import 'typeface-fira-mono';
-import { ThemeProvider } from './src/Components/ThemeContext';
+import { ThemeProvider } from './src/components/ThemeContext';
 
 export const wrapPageElement = ({ element, props }) => (
   <ThemeProvider>

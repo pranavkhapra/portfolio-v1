@@ -1,10 +1,8 @@
 import React from 'react';
-import Icons from '../Components/Icon';
-// import harrypotter from '../../images/harry-potter.svg';
-// import profilepic from '../../images/baby_profile_naruto.jpg';
 
-import ScrollToTop from '../Components/ScrollToTop';
-import ScrollToDown from '../Components/ScrollToDown';
+import Icons from '../components/Icon';
+import ScrollToTop from '../components/ScrollToTop';
+import ScrollToDown from '../components/ScrollToDown';
 
 export default function about() {
   return (
@@ -19,7 +17,7 @@ export default function about() {
           <div className="items-start space-y-2 lg:grid lg:grid-cols-3 lg:space-y-0 lg:pt-4">
             <div className="flex flex-col items-center pt-6 xl:pt-5">
               <img
-                src="/pranav.jpg"
+                src="pranav.jpg"
                 alt="avatar"
                 className="w-48 h-48 rounded-xl"
               />
@@ -84,7 +82,7 @@ export default function about() {
                   still learning javascript .......yaa you are right after all
                   these years.....ALWAYSSS
                   <img
-                    src="/harry-potter.svg"
+                    src="harry-potter.svg"
                     fill="#eb4471"
                     viewBox="0 0 42.21 42.21"
                     className="h-8 w-8  hover:text-red-300 focus:text-red-300 dark:text-red-300"

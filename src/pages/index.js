@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../Components/Header';
-import RecentProjects from '../Components/RecentProjects';
-import ScrollToTop from '../Components/ScrollToTop';
-import ScrollToDown from '../Components/ScrollToDown';
+import Header from '../components/Header';
+import RecentProjects from '../components/RecentProjects';
+import ScrollToTop from '../components/ScrollToTop';
+import ScrollToDown from '../components/ScrollToDown';
 
 export default function index() {
   return (

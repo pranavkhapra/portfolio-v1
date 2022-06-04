@@ -1,7 +1,6 @@
 import React from 'react';
-// import giff from '../images/1145-wings-outline.gif';
-import ScrollToTop from '../Components/ScrollToTop';
-import ScrollToDown from '../Components/ScrollToDown';
+import ScrollToTop from '../components/ScrollToTop';
+import ScrollToDown from '../components/ScrollToDown';
 
 export default function uses() {
   return (

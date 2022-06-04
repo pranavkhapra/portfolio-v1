@@ -10,14 +10,14 @@ import {
   youtubeApi,
   markDownViewer,
   konohaGram,
-} from '../Components/ProjectData';
+} from '../components/ProjectData';
 import {
   ProjectLayoutMed,
   LeftProjectLayoutLarge,
   RightProjectLayoutLarge,
-} from '../Components/ProjectLayout';
-import ScrollToTop from '../Components/ScrollToTop';
-import ScrollToDown from '../Components/ScrollToDown';
+} from '../components/ProjectLayout';
+import ScrollToTop from '../components/ScrollToTop';
+import ScrollToDown from '../components/ScrollToDown';
 
 export default function projects() {
   // console.log(sickSlice);

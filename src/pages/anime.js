@@ -1,20 +1,7 @@
 import React from 'react';
-// import narutoFirstPoster from '/naruttooo.png';
-// import narutoSecondPoster from '/narutoo.jpg';
-// import chainsawmanFirst from '/chainsawman.jpg';
-// import chainsawmanSecond from '/chainsawman1.jpg';
-// import haikyuFirst from '/haikyuu.jpg';
-// import haikyuSecond from '/haikyuuu.jpg';
-// import jujutsuKaisenFirst from '/jjk_poster.jpg';
-// import jujutsuKaisenSecond from '/jujutsukaisen.jpg';
-// import demonSlayerFirst from '/demonslayer.jpg';
-// import demonSlayerSecond from '/demonslayer.jpeg';
-// import silentVoiceFirst from '/silentvoice.jpeg';
-// import silentVoiceSecond from '/silentvoice.jpg';
-// import aotFirst from '/aot1.jpg';
-// import aotSecond from '/aot2.jpg';
-import ScrollToTop from '../Components/ScrollToTop';
-import ScrollToDown from '../Components/ScrollToDown';
+
+import ScrollToTop from '../components/ScrollToTop';
+import ScrollToDown from '../components/ScrollToDown';
 
 export default function anime() {
   return (
@@ -31,10 +18,10 @@ export default function anime() {
         <section className="p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-start ">
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src="/narutoo.jpg" alt="" />
+              <img className="absolute" src="narutoo.jpg" alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="/naruttooo.png"
+                src="naruttooo.png"
                 alt=""
               />
             </div>
@@ -81,10 +68,10 @@ export default function anime() {
 
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src="/chainsawman1.jpg" alt="" />
+              <img className="absolute" src="chainsawman1.jpg" alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="/chainsawman.jpg"
+                src="chainsawman.jpg"
                 alt=""
               />
             </div>
@@ -132,10 +119,10 @@ export default function anime() {
 
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src="/haikyuu.jpg" alt="" />
+              <img className="absolute" src="haikyuu.jpg" alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="/haikyuuu.jpg"
+                src="haikyuuu.jpg"
                 alt=""
               />
             </div>
@@ -183,10 +170,10 @@ export default function anime() {
 
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src="/jjk_poster.jpg" alt="" />
+              <img className="absolute" src="jjk_poster.jpg" alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="/jujutsukaisen.jpg"
+                src="jujutsukaisen.jpg"
                 alt=""
               />
             </div>
@@ -232,10 +219,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src="/demonslayer.jpg" alt="" />
+              <img className="absolute" src="demonslayer.jpg" alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="/demonslayer.jpeg"
+                src="demonslayer.jpeg"
                 alt=""
               />
             </div>
@@ -281,10 +268,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src="/aot1.jpg" alt="" />
+              <img className="absolute" src="aot1.jpg" alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="/aot2.jpg"
+                src="aot2.jpg"
                 alt=""
               />
             </div>
@@ -332,10 +319,10 @@ export default function anime() {
           </article>
           <article className="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
             <div className="relative max-h-125 overflow-hidden">
-              <img className="absolute" src="/silentvoice.jpg" alt="" />
+              <img className="absolute" src="silentvoice.jpg" alt="" />
               <img
                 className="relative transform duration-500 group-hover:opacity-0"
-                src="/silentvoice.jpeg"
+                src="silentvoice.jpeg"
                 alt=""
               />
             </div>
