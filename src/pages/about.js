@@ -68,7 +68,7 @@ export default function about() {
                 </div>
                 <div className="">
                   <li className="mb-0.25 text-xl font-bold">
-                    Libraries & FrameworkLibraries & Framework
+                    Libraries & Framework
                   </li>
                   <li className="mb-0.25">▸ React / React Native</li>
                   <li className="mb-0.25">▸ Typescript</li>
