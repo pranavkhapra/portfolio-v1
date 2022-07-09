@@ -57,23 +57,37 @@ export default function about() {
                 Here are a few technologies I&apos;ve been working with
                 recently:
               </p>
-              <ul className="md:flex ">
+              <ul className="flex flex-col gap-10 md:flex-row justify-between items-start">
                 <div>
-                  <li className="mb-0.25">▸ React</li>
-                  {/* <li className="mb-0.25">▸ TypeScript</li> */}
-                  <li className="mb-0.25">▸ JavaScript</li>
-                  <li className="mb-0.25">▸ Next Js</li>
-                  <li className="mb-0.25">▸ Graphql</li>
-                  <li className="mb-0.25">▸ Sanity</li>
+                  <li className="mb-0.25 text-xl font-bold">
+                    Programming Language
+                  </li>
+                  <li className="mb-0.25">▸ HTML</li>
+                  <li className="mb-0.25">▸ CSS3</li>
+                  <li className="mb-0.25">▸ JavaScript(ES6)</li>
                 </div>
-
-                <div className="md:ml-20">
-                  <li className="mb-0.25">▸ Firebase</li>
+                <div className="">
+                  <li className="mb-0.25 text-xl font-bold">
+                    Libraries & FrameworkLibraries & Framework
+                  </li>
+                  <li className="mb-0.25">▸ React / React Native</li>
+                  <li className="mb-0.25">▸ Typescript</li>
+                  <li className="mb-0.25">▸ NextJs</li>
+                  <li className="mb-0.25">▸ GraphQL</li>
+                  <li className="mb-0.25">▸ Styled-Components</li>
                   <li className="mb-0.25">▸ Gatbsy</li>
+                  <li className="mb-0.25">▸ StoryBook</li>
+                  <li className="mb-0.25">▸ Redux</li>
                   <li className="mb-0.25">▸ TailWind</li>
-                  <li className="mb-0.25">▸ Apollo Client</li>
-                  <li className="mb-0.25">▸ Keystonejs</li>
-                  {/* <li className="mb-0.25">▸ </li> */}
+                </div>
+                <div className="">
+                  <li className="mb-0.25 text-xl font-bold">Tool & Platform</li>
+                  <li className="mb-0.25">▸ Git</li>
+                  <li className="mb-0.25">▸ Postman</li>
+                  <li className="mb-0.25">▸ NX Monorepo's</li>
+                  <li className="mb-0.25">▸ Netlify CMS </li>
+                  <li className="mb-0.25">▸ Strapi </li>
+                  <li className="mb-0.25">▸ Firebase</li>
                 </div>
               </ul>
               <div>
